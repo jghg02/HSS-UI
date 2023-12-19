@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'HSS-UI Lib'
 
   s.description      = 'HSS-UI this is a UI lib. It provide the definitions, components and tolls to build consistent experience.'
-  s.homepage         = 'https://github.com/Josue/HSS-UI'
+  s.homepage         = 'https://github.com/jghg02/HSS-UI'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Josue' => 'jghg.02@gmail.com' }
   s.source           = { :git => 'https://github.com/jghg02/HSS-UI.git', :tag => s.version.to_s }

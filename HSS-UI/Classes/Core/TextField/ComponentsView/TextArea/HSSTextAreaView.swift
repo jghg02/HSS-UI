@@ -81,7 +81,7 @@ class HSSTextAreaView: HSSTextFieldAbstractView {
 extension HSSTextAreaView {
     func sizeForText(_ txt: NSString) -> CGSize {
         let width = self.textView.textContainer.size.width
-        let size = CGSize(width: width, height: .infinity)
+        _ = CGSize(width: width, height: .infinity)
 //        let textRect = txt.boundingRect(with: size, options: [.usesLineFragmentOrigin, .usesFontLeading], attributes: textView.typingAttributes, context: nil)
 //        return textRect.size
         return .zero

@@ -125,7 +125,7 @@ public class HSSLabel: UILabel, HSSUIAccessibleView {
                     let linkCustomAttributes = [
                         .foregroundColor: linkColor,
                         .underlineColor: linkColor,
-                        .underlineStyle: NSUnderlineStyle.styleDouble.rawValue
+                        .underlineStyle: linkColor
                     ]  as [NSAttributedString.Key: Any]
                     attributedString.addAttributes(linkCustomAttributes, range: range)
                 }
