@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HSS-UI'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'HSS-UI Lib'
 
   s.description      = 'HSS-UI this is a UI lib. It provide the definitions, components and tolls to build consistent experience.'
