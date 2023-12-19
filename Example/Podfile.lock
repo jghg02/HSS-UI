@@ -1,0 +1,23 @@
+PODS:
+  - HSS-UI (0.1.0):
+    - PureLayout
+  - PureLayout (3.1.9)
+
+DEPENDENCIES:
+  - HSS-UI (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - PureLayout
+
+EXTERNAL SOURCES:
+  HSS-UI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HSS-UI: ede3421b97b74ab6b6f0faca98376ae8af57b748
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
+
+PODFILE CHECKSUM: 55bd18fbe7e6b8511fba74409e47f66878790e81
+
+COCOAPODS: 1.14.3

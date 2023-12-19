@@ -1,0 +1,6 @@
+framework module HSS_UI {
+  umbrella header "HSS-UI-umbrella.h"
+
+  export *
+  module * { export * }
+}

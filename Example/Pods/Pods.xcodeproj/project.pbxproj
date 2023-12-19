@@ -1,0 +1,1879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013040095F2E31327C7C99DF24564014 /* HSS-UI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEE6E8447E5CE9A7B5DADC8BB1E082D /* HSS-UI-dummy.m */; };
+		01405512FC6294686FC69CAD468DF565 /* HSSTextFieldComponentLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576544C7D8A4BB177826F84025E8E815 /* HSSTextFieldComponentLabel.swift */; };
+		020732BC14F83499CFFE2886A3485E54 /* HSSTextFieldStateIdle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98818EB144ABE2779CBBC7CA3D3E0714 /* HSSTextFieldStateIdle.swift */; };
+		025AAB744AD2E1BF2CE9DA0DF41DD3ED /* HSSButtonSizeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C93DD1F460F985D0C9DF2B94785E99 /* HSSButtonSizeFactory.swift */; };
+		02B91276083BA809E0A32A16A7F7D420 /* HSSButtonSizeLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630B1FAA7C2B07C0D22647EE073FF1E2 /* HSSButtonSizeLarge.swift */; };
+		02D2EBE8EB9764416E6E30744E8F6851 /* HSSButtonViewConfigFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714F8D67D05B976B966BDDA326CB8D2D /* HSSButtonViewConfigFactory.swift */; };
+		03DF9B60EE7585FD5D4EA59A4A006B23 /* HSSTextFieldLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F1717C2915592C0601CBA6365136F /* HSSTextFieldLabelView.swift */; };
+		04651D8D6606F07CF6D7F3559B136B69 /* HSSEnumStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0631998C929EB7E999B3CDA7156571 /* HSSEnumStringConvertible.swift */; };
+		06AA903F5894FD6969117B841235095F /* HSSCheckboxTypeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B880743E66D6F48E899C63B026FA61B /* HSSCheckboxTypeError.swift */; };
+		06C3F79B44E6D103C35D984516B92DC0 /* HSSTextFieldViewConfigFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5973E7BCCCC6500EB1881B1D6753051E /* HSSTextFieldViewConfigFactory.swift */; };
+		0806B7584ABA5CCED74F6F59DD66BF85 /* HSSLabelAccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262D50F6BD92D805659455209768A6C /* HSSLabelAccessibilityManager.swift */; };
+		09D01AB0DDBFC91734DA5619A2F6CB9F /* HSSCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FE1595D6498C0E2CC1B715053C60F3 /* HSSCheckbox.swift */; };
+		0CC8C9E7E10A6309CB68C4D2CF8FB5C9 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ED28867CD0785EC396BABDFB85847 /* TextField.swift */; };
+		0DD214FE9B603E0CB1F5B7F6D85C3069 /* HSSCheckboxType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BABA4E45F00183CC3CCB895FA81590 /* HSSCheckboxType.swift */; };
+		0EF3214065959D291DD76411F13F4E54 /* HSSTextAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D513C65F724DC3560449E4D89FFBE /* HSSTextAreaView.swift */; };
+		0FE7207A1B1894F23DBFE4E8B9EE8655 /* HSSLabelBodySize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7676E7C884D9DDBEBA93901616E0CA6 /* HSSLabelBodySize.swift */; };
+		11A6DAA8D2F8FD85957A0EA1CAF28A38 /* HSSCheckboxAccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304DE3F93236368C4BE0DA5F828474B7 /* HSSCheckboxAccessibilityManager.swift */; };
+		124DC32BB2F7E54D307B721F8A78CB69 /* HSSButtonSizeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3FB8E9F3E20358B41224787D054328 /* HSSButtonSizeProtocol.swift */; };
+		12ABDCD5A41FECC24C67627FA7A3E2D3 /* HSSLabelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96F7444FCAC923983A4B44AC80E7AEE /* HSSLabelType.swift */; };
+		15BE55FCE24C385897BC7D124B18C8B5 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 123A254A231B536E205426F275C27915 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163E177F4B72A66E0FF401FD382B3BD9 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 97501F9366F9E5E49CE81B6A7158F6AC /* ALView+PureLayout.m */; };
+		170001716C0FDD2BF44839E6ADFA909A /* HSSTextFieldStateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C9A3373FBC2FF2BA971134DD56181 /* HSSTextFieldStateError.swift */; };
+		19890C957CBAC507BD917658F606F8E3 /* HSSTextFieldProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76C03D7004D70E5337F4B4B8E6BD17 /* HSSTextFieldProgressIndicatorView.swift */; };
+		1CA68976FAA875DA726C6439D1AED509 /* TextFieldPaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C2D57B0ADF9B7A87E1F6081DCB8F7 /* TextFieldPaddingView.swift */; };
+		1F55FB132918D599AC1ED540C2996798 /* HSSTextAreaDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A054EB9ADC4ECC68FDAF4C908430C1F2 /* HSSTextAreaDelegate.swift */; };
+		1FC1DE4B491B44237210A90EC6B36A54 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F96E4ABE8F89F7939CD79D6E6FB7CE /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F0061A95406BC0C311202C415E3914 /* HSSTextFieldBorderLayerDashed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC223240E12ED57B3AE25DD84167DB9 /* HSSTextFieldBorderLayerDashed.swift */; };
+		23C41895FEC44FBABF85BEB281342262 /* HSSTextFieldIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FBB419BCE8AA6A62AF7E7F3FABD3AF /* HSSTextFieldIconView.swift */; };
+		26EABF598D955A78089510F1D20AAE09 /* HSSButtonSizeMedium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA2D240A58C0552547E5848A5A5556 /* HSSButtonSizeMedium.swift */; };
+		2745A5291CD8B586F79CFA2AD73983D2 /* HSSButtonViewWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5066A58276330E631B838A8A902412 /* HSSButtonViewWithIcon.swift */; };
+		2934FED91662EB8E7804E95E6D10A2F4 /* HSSTextFieldStateFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2AB43633BCD8F89B89E89CB1DA0965 /* HSSTextFieldStateFactory.swift */; };
+		2C1F00B315C7D43CB6196D691ABF113F /* HSSButtonAccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BB9E3E4539B79A957084536CCA5FF7 /* HSSButtonAccessibilityManager.swift */; };
+		2ED80293616F0A7E08345D8C86D56CA2 /* HSSLabelTitleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3398FFC1BFA7A4FBF852F42334EC33 /* HSSLabelTitleConfig.swift */; };
+		3144A34C5EDCFD466FC8E25030C2E982 /* HSS-UI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4197192343EA8ECDF44E6720A895143A /* HSS-UI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31BDF14C430F74A61551E001085BB6F5 /* HSSTextFieldActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04426F47B6E9977A659A2D18389D93EA /* HSSTextFieldActionView.swift */; };
+		327D263BD2E64B81F14F4FEF7BC891ED /* HSSTextFieldComponentReloadPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB4D1D3BB9AF2C9358DC04278EEF1EB /* HSSTextFieldComponentReloadPolicy.swift */; };
+		3493D348C4EEE8A0C3289F6B46FC4557 /* HSSButtonHierarchyQuiet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAB57D294F2D5987D4AD08F310CA6B1 /* HSSButtonHierarchyQuiet.swift */; };
+		34DA9F0F2EDA4D94532B9043496A0B2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		36CC66908C389B3EC9B9587143D2FE41 /* UITapGestureRecognizer+didTapAttributedTextInLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7A6E537827636338274116D0A84E8 /* UITapGestureRecognizer+didTapAttributedTextInLabel.swift */; };
+		37596181FF31027D91E5B3C7C9EA12C0 /* HSSButtonHierarchyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A018B02B878C3EDF87C71D8F9C4DED8E /* HSSButtonHierarchyFactory.swift */; };
+		385DD11A925D30889C9C1FC1F0298959 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 322F1E56B10AFDBBD6EDAF48372DE756 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B820F4F2809DD5ACF011DFFA1CE7174 /* HSSTextFieldAccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BC4174A92742A9EB30B700C1E56806 /* HSSTextFieldAccessibilityManager.swift */; };
+		3E905298E2FA2D8096503EDA04FDC1F6 /* HSSButtonDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D925BD7C47328B4189BED86503386D82 /* HSSButtonDefaultView.swift */; };
+		3FDB37263248F82E00308AC9E7691649 /* HSSButtonSizeSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF906DC62D21913CD509A1D5BEBDAE4 /* HSSButtonSizeSmall.swift */; };
+		40411C830D161DD47F51FA32F82D34E0 /* HSSTextFieldSideComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDD3383753A02BDACBE1D1AC11FBC95 /* HSSTextFieldSideComponentFactory.swift */; };
+		40FE34A55AC1EA89676D3C849DE0CB9F /* HSSTextFieldClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF997ADBADCFCA43D8261DED30799D61 /* HSSTextFieldClearView.swift */; };
+		43829ABA84A09722977E424C3C8D4820 /* HSSTextInputTraitsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AEAC85E9685D8D7771677F22E983EF /* HSSTextInputTraitsFactory.swift */; };
+		43D450EB2E2181311FC142E0DF879E78 /* HSSCheckboxStatusUnselected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B4F02EFBDAE456C49E2E2B9218B95 /* HSSCheckboxStatusUnselected.swift */; };
+		446509823849EC0E2A5ADE54ED78DC01 /* HSSCheckboxTypeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F0B925AEBD58C70E83EC6CCD9773A6 /* HSSCheckboxTypeFactory.swift */; };
+		44C6403BA60C31B1D3C3C0A7F92B1F78 /* HSSLabelTitleSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3A076320912A1CEE4D52F14866635 /* HSSLabelTitleSize.swift */; };
+		47D14C12616D570C9F7385F5BD8AC34D /* HSSButtonViewDefault.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5C6641599FFE8AA4D9C1A9C6083755 /* HSSButtonViewDefault.xib */; };
+		48710CA6EB8C8B4F097BC5172E5F4629 /* HSSTextFieldComponentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5766AB2C57805ED2984D46CADFFD85 /* HSSTextFieldComponentIcon.swift */; };
+		5269418F73CD8E16C8076A27F3AB4C65 /* HSSTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E6B4751217A148F0FBC2A3193D658 /* HSSTextFieldDelegate.swift */; };
+		5A6F726E9A3F0337CE3252244A6BD43B /* HSSButtonViewIconRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74632D3AB225443195D9A8644688A1A3 /* HSSButtonViewIconRight.swift */; };
+		5C14B6CA57615B12FF53D063744A6A48 /* Pods-HSS-UI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE65326153F710FA789D904DC5B625FD /* Pods-HSS-UI_Tests-dummy.m */; };
+		5D90FC595DC3450BD723ED1AE894D30F /* HSSTextFieldAbstractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4714DC217A463725A6FE3F259AC1A3 /* HSSTextFieldAbstractView.swift */; };
+		5E35B22793C232327E367E34E72B9D5A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6B2A6882F1E989A0F76B63A855E987 /* NSLayoutConstraint+PureLayout.m */; };
+		5E7F65D85C781E2CBD9975103804AA65 /* HSSUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462E79120A776CEFBB63B2AAF7D2363A /* HSSUITextView.swift */; };
+		5FF16280A8840EA556495AD7DC5766AC /* HSSCheckboxStatusFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F71790DEEF9C0D5C49B43DA9D1E1C0D /* HSSCheckboxStatusFactory.swift */; };
+		64B9AA562CCAC9C81DD7FD3186C3B0E5 /* HSSTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CAF7AAD2248EDB7C709C8D7AF353D /* HSSTextFieldView.swift */; };
+		64C8827BDDE051B0B2DFA92548B02510 /* HSSTextFieldDefaultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC27CB602AF24E5C49353969AEB1406 /* HSSTextFieldDefaultView.xib */; };
+		6897491E6D9F507CD3BF716AAC3FC2F6 /* HSSTextFieldComponentAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3DFF4F4696CF7D9EE02D8B01BE4C1 /* HSSTextFieldComponentAction.swift */; };
+		69BFB4200AD530D1B729A6EFA2345A9D /* HSSButtonHierarchyTransparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95D3F6E21282B004D42BCA389D934EA /* HSSButtonHierarchyTransparent.swift */; };
+		6C1FFA7769FDFFCE57EE5A23E7524628 /* HSSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3C6B66CC70AFFFACF08F91E0CCE67B /* HSSTextField.swift */; };
+		6F31E82ADAAD54987278BDF0866F79AD /* HSSTextInputState+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6711DD06FE69DF621845EC38D4A7B2 /* HSSTextInputState+Info.swift */; };
+		732C1856020659EBCCEAA1760C2FFAE6 /* HSSTextInputPaddingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75912FD6293D0F7E924D58A73D10A497 /* HSSTextInputPaddingFactory.swift */; };
+		740736C21AB29A0A845AC3DB1D3C1DCA /* HSSButtonIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E450377FBA8161DB676DEA1A499254BE /* HSSButtonIcon.swift */; };
+		7431B6EC9CD1A9AE29806C5EB7A2C5D9 /* HSSTextFieldComponentProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCB3BE4669E9F1AC7EE0B5F736D983 /* HSSTextFieldComponentProgressIndicator.swift */; };
+		77158F90B1C32EE1A1BFEE5E541501A7 /* HSSCheckboxStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13E251F741F7987765804F40C1A9C1 /* HSSCheckboxStatus.swift */; };
+		793F3AE58923D8571678D0D16592EC21 /* HSSColorStrategyiOS10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C557854C2BF70362841FACA76A2EC /* HSSColorStrategyiOS10.swift */; };
+		7C11EEDDBDFC13E71AA3BB7C1FC8D82A /* HSSTextFieldLeftComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0388C74DE392561EA50CF72C55E8D6DE /* HSSTextFieldLeftComponent.swift */; };
+		7DAAECA1CCB703D84F9CF28E524EC7F5 /* HSSTextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBDE5F25BD6CD1FAC09149D3B02CEA /* HSSTextArea.swift */; };
+		7F6A5ECCBB4F60A887629B7EF62C12C9 /* HSSLabelInternalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E291A79C3CC67EB18108DBF87C0F3 /* HSSLabelInternalConfig.swift */; };
+		80EFB826C7CA9786BD69662FC68EC321 /* HSSButtonViewIconLeft.xib in Resources */ = {isa = PBXBuildFile; fileRef = 320C22088AD9B50335B8BE276D985484 /* HSSButtonViewIconLeft.xib */; };
+		87000636CAC6D39A2A9F294435087D8A /* HSSButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ADA80711E385711FCA71F616504029 /* HSSButtonSize.swift */; };
+		8842B5E760C1D47651920E19B39FE886 /* HSSTextFieldStateReadonly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB756C751D0B1666579C39798D5426D /* HSSTextFieldStateReadonly.swift */; };
+		89B121C31BAB141CA064372922E5A553 /* HSSBodyBold.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC611A96A8E26CA568446E23EDE47109 /* HSSBodyBold.swift */; };
+		8A7B1F8DEDB628E61683B2E3F77D05F6 /* HSSTextFieldCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26A6F202C382D87B899CE0488E2FD2 /* HSSTextFieldCheckboxView.swift */; };
+		8C8186652BD1612D86B29C26A8E87B7F /* HSSTextFieldComponentVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA84BECBF4BDA6723FF1D4CEA3CE50 /* HSSTextFieldComponentVisibility.swift */; };
+		8D13C1B02921FE6343CA24BC7391AD04 /* HSSTextFieldComponentCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EE8FB710C15EE95B29074F15DFFBF2 /* HSSTextFieldComponentCheckbox.swift */; };
+		8E7FC42C562B3520BD9EE7867AC830C9 /* HSSTextFieldViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04809988F628895192A064D094767A00 /* HSSTextFieldViewConfig.swift */; };
+		8FC8F5E333E9D151CC7CCC3FAC9894C3 /* HSSCheckboxDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43F6ACD50BD31DAC55C5692D8F6FEF5 /* HSSCheckboxDefaultView.swift */; };
+		9249536A0DEE9B28817FE6BF3C17C04E /* HSSTextFieldStateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AB32E396153D2E2A2C1207F64563EA /* HSSTextFieldStateProtocol.swift */; };
+		934B48AD633FA21E62F8595381D6B775 /* HSSTextFieldStateDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59460C9AB848C6EF68B55F91769845C /* HSSTextFieldStateDisabled.swift */; };
+		9362CD069FB1ABA74D67A8EA67DD12DB /* HSSTextAreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550F3001C31A617010B085F392251C0E /* HSSTextAreaView.xib */; };
+		9443C51C3D5197F7E5566FDD0B575C08 /* HSSCheckboxViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3524A558E781664B6D838BB6781CFFE /* HSSCheckboxViewConfig.swift */; };
+		955BD789274541EB4B8F8BE338EC2B9A /* HSSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA5725F15B740F0C5A11101E2A8D05 /* HSSColor.swift */; };
+		96ABA1C97B779D1FC887CBFA3652F698 /* HSSTextFieldViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9410594EE86905187D355B5F563B25BE /* HSSTextFieldViewDelegate.swift */; };
+		96C1D29F8264618C9FC74B3087172707 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F90B2E04EFB939C836BA02137FC89D3B /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		999C6EF7E56A8634D10C04037B21B25E /* HSS-UI-HSS-UIResources in Resources */ = {isa = PBXBuildFile; fileRef = 03339E99BA7690B95F8A02ACE252D5FA /* HSS-UI-HSS-UIResources */; };
+		99B7B8D0886F3181B659F2B7EE71FCB1 /* HSSUIAccessibilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307EEA59CC44BDDD99A03A5A47AD827 /* HSSUIAccessibilityManager.swift */; };
+		9C74F16CF140FEF233394A39B898545B /* UILabel+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4A6728BF8959EBBACD484E7BC8534 /* UILabel+Additions.swift */; };
+		9CD083F0FFF4B5D2828F0241AAF6BA2E /* HSSTextFieldRightComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DA3B5BE48899721C979356074C4A66 /* HSSTextFieldRightComponent.swift */; };
+		9D00117D0570AA0F965ADF336B525267 /* HSSTextFieldBorderLayerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F11BFFCC5244C0AA9C8156020A7024 /* HSSTextFieldBorderLayerDefault.swift */; };
+		9DF08B6CF6D3922283E01AFB8380532F /* HSSCheckboxStatusUndefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248906022A83374446776F8B21A57183 /* HSSCheckboxStatusUndefined.swift */; };
+		A268318BE60885AA5191C8FACE53371C /* HSSIconsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150016EEE1160BD587568F3FFE6EF4A9 /* HSSIconsProvider.swift */; };
+		A786DBFE312618EB470F44D6880115C7 /* HSSBodyBolds.swift in Sources */ = {isa = PBXBuildFile; fileRef = E409CB106CD21C49BBA3FCA4C05266A7 /* HSSBodyBolds.swift */; };
+		A7AF86DD6AD3162B3AAB7C8678CF3D02 /* HSSTextFieldDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BFDFAD050B4F498F0FE59A6BFE7F5 /* HSSTextFieldDefaultView.swift */; };
+		A9674BF1F4BD829780A45D3496ABEA64 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1993BD8BEB4BCC6E3B512FF70A5E063D /* NSArray+PureLayout.m */; };
+		AA901118F9B88A6781897BE4A23E264C /* HSSIconsStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F174F0F6B8C7065BDC67FA4586647 /* HSSIconsStrategy.swift */; };
+		AD265DA4ACAACB40E1B217D0BA9E84DD /* HSSButtonViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2143C520A03AE83E1160FC37E93964A9 /* HSSButtonViewConfig.swift */; };
+		AD96DA23B4D8C5D996DB31243105FA54 /* HSSLabelColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19C67078A379FAFD91C7F46844C5399 /* HSSLabelColor.swift */; };
+		AF3DE380C82DC1C761D924CF48FABD1E /* HSSStyleSheetDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E19E3A79864B7F0E7A9C6190CA70E1 /* HSSStyleSheetDefault.swift */; };
+		B110107765B2B0C71061841FB75F69BC /* HSSCheckboxDefaultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9A47BC967465EAA9D9442000ABC50ED /* HSSCheckboxDefaultView.xib */; };
+		B116051721450981CB9D4B73E1663004 /* HSSIconsLocalStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E75D6BDA1FC43CAF5644C6C895A249 /* HSSIconsLocalStrategy.swift */; };
+		B1277E771C9814835220E3CB15521FC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B1E181C3DAACF6F4EF13DD5C586F192B /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A72F7E3B6D4AF6293CC728D1825B946B /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D0768B82782F96EF18C60C46EEB564 /* HSSIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F586BEED4AEB99CD5891B22AAF92D5E8 /* HSSIcons.swift */; };
+		B8D3CCEEB1CEB7C01498159904B2D148 /* HSSButtonHierarchyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB438527E359CD168D7D2ECEB207571 /* HSSButtonHierarchyProtocol.swift */; };
+		BC9FB1DEAF9640CAB11F4F25B7B7CE7F /* HSSTextInputState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5F8AB2429F7D80C75BDFC4D79D854F /* HSSTextInputState.swift */; };
+		BD237C39E704BF9FE6D11265BDE5FB95 /* HSSStyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36735342471A3BEE5C7D8F1848AB50F /* HSSStyleSheet.swift */; };
+		BE676335C99C59198C754AAB37CEC03C /* HSSStyleSheetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C555B3DF9DE065399D332410379F542 /* HSSStyleSheetManager.swift */; };
+		BE767F784F4EF6751FDF629381455998 /* HSSCheckboxStatusSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D39151EBFF9E52EFAADFEA62C9008 /* HSSCheckboxStatusSelected.swift */; };
+		BEEFA3450D2A7101E83BB968E0C4773D /* HSSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE52B7591C3EFCF2C8487EE57F74A3 /* HSSBundle.swift */; };
+		BF9D231C336B955D8598BC3666B67ECC /* HSSBodyLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79937F1A50597013A55640F7AAABB0F /* HSSBodyLink.swift */; };
+		C2078C823CD2068671FA0BD5E9C5FDBB /* HSSCheckboxViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4CC24C17A463A4A425F83F863561C5 /* HSSCheckboxViewDelegate.swift */; };
+		C221942E46B40460B67F8B3EDA902FA7 /* HSSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92BFFDC817406CA2C6FF08DBBF579ED /* HSSLabel.swift */; };
+		C7DE37E00C3DA3E144A13D0AF1AEC62E /* HSSButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31B31B913DB7D1078E530D6E48B2922 /* HSSButtonView.swift */; };
+		C9A4E331F5D98ED3E382E7DFF15A0459 /* HSSLabelBodyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBB41EB02AE6D7D3A8EE0D3B692E71 /* HSSLabelBodyConfig.swift */; };
+		CC45AB2DD14FDE5E0AFBC9CC9015A0F6 /* HSSTextFieldStateWarning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE456FB7014B16A2FDAD1A6C1EF7861 /* HSSTextFieldStateWarning.swift */; };
+		CD74850F3417854889851F55A682AE29 /* HSSCheckboxTypeDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971E2812AC1BCC2B2B57B60A9A48DAE /* HSSCheckboxTypeDisabled.swift */; };
+		D0C9CE232273D8E6B62C86A3F1C11BBF /* HSSStringsLocalizableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99E593481633A6976924DE9E6C1E56C /* HSSStringsLocalizableExtensions.swift */; };
+		D4E04BFAEF852B67A5FA50222BBB4BD5 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E386439465C8252DE83EED53DBC4D3 /* UIView+Additions.swift */; };
+		D5393780658F64AE576851FAA887C9B6 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B2C553A17C85D3D764140EBE18602C /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5CD0DAE80704AA05F54D9BD9F7A41DA /* HSSButtonViewIconLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05E082AAB14E45F82E44003C8C6F87 /* HSSButtonViewIconLeft.swift */; };
+		D6EE0FF3B4A4297A73E9E1DB130A3D3C /* Pods-HSS-UI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29147E3E898FD786B3B4C66688B3244E /* Pods-HSS-UI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91259C31EDEFB8EF13A86470E298CB8 /* Pods-HSS-UI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B72EA8496F770C686A78935045642F7 /* Pods-HSS-UI_Example-dummy.m */; };
+		DA3774213DB15205FD48C1E9CF66B0DA /* HSSButtonViewIconRight.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65E989FA415A8285BC4322F96C2907A8 /* HSSButtonViewIconRight.xib */; };
+		DB4552B06478EF11380A603A712C1E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB9208A314445D70399E6E5030FF5626 /* Pods-HSS-UI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12817AD0D5BD5CB5B9293D28FEE226C4 /* Pods-HSS-UI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0C7377C6E042C0B87DBE1F3B96B062D /* HSSButtonAbstractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682142E1B872E4CB041B2550CEF01DD0 /* HSSButtonAbstractView.swift */; };
+		E322664C12C0AA9733571DDAFED8BE00 /* HSSButtonHierarchyLoud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4D25E5756FEC9CC7F8322A45E4928F /* HSSButtonHierarchyLoud.swift */; };
+		E521B8F8285EFDB560939F176581419A /* HSSCheckboxTypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD74C6F9E1F246CE7D2CA8BB070EBA5D /* HSSCheckboxTypeProtocol.swift */; };
+		E5B7B89DB0AE23126D5306F127F626D3 /* UIApplication+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03313948B4247D0B26E41AD25CA3D28B /* UIApplication+Additions.swift */; };
+		E762888425FF05087A738B14FF9CDA17 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 32849B88153EFE10C42AD9EF8CED9FDF /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7DC9A47B594AA769EED610CB84721CC /* HSSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF160F7819B1ABEF5C5C4E0E0A3D822 /* HSSButton.swift */; };
+		E8FA586B3B1600C698D288ABB78E042C /* HSSTextFieldComponentCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A91825C5CDBB41C0788BC455A45795C /* HSSTextFieldComponentCheck.swift */; };
+		EF247029E7F7DCD2427415477EA58A89 /* HSSBodyLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B9AC1BDDCC8AE5A66BEE8F1AA4562 /* HSSBodyLinks.swift */; };
+		EF36CD7E268786F971BB9986ACB86869 /* HSSTextFieldInputTrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9EDA9D68A7EE6DC2579DCFE1F0DA65 /* HSSTextFieldInputTrait.swift */; };
+		EFA938C9FFA345F11121563888271990 /* HSSCheckboxStatusProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EB8CC65E605E12D56A7BFFB866F5E9 /* HSSCheckboxStatusProtocol.swift */; };
+		F4ACFED7C47993953163A74B1A60D075 /* HSSTextInputPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB5E19130CF2B6DAF842CAD7385669 /* HSSTextInputPadding.swift */; };
+		F6CDC81182E61BE6CFC0DB3250A8929A /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC089F6A5FF4203671B85E40022E9A2 /* PureLayout-dummy.m */; };
+		F7051101C2C10D8215A3062291C7BCD4 /* HSSFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39325B5DC84E75304333EC0070974718 /* HSSFontStyle.swift */; };
+		F99326AB78E82C9F75A1248A15E00A30 /* HSSTextFieldEmptySideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59134392A3576DBD1EC1320E9313667 /* HSSTextFieldEmptySideComponent.swift */; };
+		FB0DD3E8313138D97C61FE90FE6BD155 /* HSSCheckboxAlign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F3B63CAE1BD8821E25B0742F9B9F2 /* HSSCheckboxAlign.swift */; };
+		FB8D18BA9B4588D4417E3AB48861A439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FBE8DD6DC1F065C9C5B6BC7D2684F042 /* HSSCheckboxTypeIdle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A3FA03912DF1E5EB755DA4D111FD33 /* HSSCheckboxTypeIdle.swift */; };
+		FD51984A0365449F2A98662A5A63E68D /* HSSCheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD836060165F036EE6132E07D878B4C4 /* HSSCheckboxView.swift */; };
+		FDA0552A0B6FB35543BABC7CA2FBBD72 /* HSSButtonHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88924925D43819534E9362F622574C6F /* HSSButtonHierarchy.swift */; };
+		FFDDD60FF06AC65854444AC4ADE27E68 /* HSSTextFieldComponentClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29855B92667CD53183643BBE6E17635 /* HSSTextFieldComponentClear.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		658887CA575D8D044C32C1E409A99889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
+		BDEB6D6E0B56470110CF3DEBBF19DE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB8E7305207DD4A848F601B47EDD659;
+			remoteInfo = "Pods-HSS-UI_Example";
+		};
+		C88C435C13074B83FE7E8734B57AF542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
+		D8042E7A7E089561547ED742E7C7FADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B511EAA55FA682C5F955EAF1AF1BCB8;
+			remoteInfo = "HSS-UI";
+		};
+		DC9E37316DFB07F6756E6ABA5CFCE2D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464FED751935C0827D1BC8EA8BACFFE2;
+			remoteInfo = "HSS-UI-HSS-UIResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EB5E19130CF2B6DAF842CAD7385669 /* HSSTextInputPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextInputPadding.swift; sourceTree = "<group>"; };
+		03313948B4247D0B26E41AD25CA3D28B /* UIApplication+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIApplication+Additions.swift"; sourceTree = "<group>"; };
+		03339E99BA7690B95F8A02ACE252D5FA /* HSS-UI-HSS-UIResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "HSS-UI-HSS-UIResources"; path = "HSS-UIResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0388C74DE392561EA50CF72C55E8D6DE /* HSSTextFieldLeftComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldLeftComponent.swift; sourceTree = "<group>"; };
+		04426F47B6E9977A659A2D18389D93EA /* HSSTextFieldActionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldActionView.swift; sourceTree = "<group>"; };
+		04809988F628895192A064D094767A00 /* HSSTextFieldViewConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldViewConfig.swift; sourceTree = "<group>"; };
+		08EC6E293BEE3A6FA7E5E407C54FD21C /* Pods-HSS-UI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS-UI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B6711DD06FE69DF621845EC38D4A7B2 /* HSSTextInputState+Info.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "HSSTextInputState+Info.swift"; sourceTree = "<group>"; };
+		0D4CC24C17A463A4A425F83F863561C5 /* HSSCheckboxViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxViewDelegate.swift; sourceTree = "<group>"; };
+		105B4F02EFBDAE456C49E2E2B9218B95 /* HSSCheckboxStatusUnselected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxStatusUnselected.swift; sourceTree = "<group>"; };
+		123A254A231B536E205426F275C27915 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/include/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		12817AD0D5BD5CB5B9293D28FEE226C4 /* Pods-HSS-UI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSS-UI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		150016EEE1160BD587568F3FFE6EF4A9 /* HSSIconsProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSIconsProvider.swift; sourceTree = "<group>"; };
+		167D0E38B14F41461223A0975C596646 /* Pods-HSS-UI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSS-UI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18BC4174A92742A9EB30B700C1E56806 /* HSSTextFieldAccessibilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldAccessibilityManager.swift; sourceTree = "<group>"; };
+		1993BD8BEB4BCC6E3B512FF70A5E063D /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		1A26A6F202C382D87B899CE0488E2FD2 /* HSSTextFieldCheckboxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldCheckboxView.swift; sourceTree = "<group>"; };
+		1B1BB3E01D6674601A0288B24C33572C /* Pods-HSS-UI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSS-UI_Tests.modulemap"; sourceTree = "<group>"; };
+		1B880743E66D6F48E899C63B026FA61B /* HSSCheckboxTypeError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxTypeError.swift; sourceTree = "<group>"; };
+		1BF194736D40C214AFEA2C85875AAB36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1C555B3DF9DE065399D332410379F542 /* HSSStyleSheetManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSStyleSheetManager.swift; sourceTree = "<group>"; };
+		1D4714DC217A463725A6FE3F259AC1A3 /* HSSTextFieldAbstractView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldAbstractView.swift; sourceTree = "<group>"; };
+		1F3398FFC1BFA7A4FBF852F42334EC33 /* HSSLabelTitleConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSLabelTitleConfig.swift; sourceTree = "<group>"; };
+		2143C520A03AE83E1160FC37E93964A9 /* HSSButtonViewConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonViewConfig.swift; sourceTree = "<group>"; };
+		23C93DD1F460F985D0C9DF2B94785E99 /* HSSButtonSizeFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonSizeFactory.swift; sourceTree = "<group>"; };
+		248906022A83374446776F8B21A57183 /* HSSCheckboxStatusUndefined.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxStatusUndefined.swift; sourceTree = "<group>"; };
+		25EB8CC65E605E12D56A7BFFB866F5E9 /* HSSCheckboxStatusProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxStatusProtocol.swift; sourceTree = "<group>"; };
+		29147E3E898FD786B3B4C66688B3244E /* Pods-HSS-UI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSS-UI_Example-umbrella.h"; sourceTree = "<group>"; };
+		2A05E082AAB14E45F82E44003C8C6F87 /* HSSButtonViewIconLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonViewIconLeft.swift; sourceTree = "<group>"; };
+		2C13E251F741F7987765804F40C1A9C1 /* HSSCheckboxStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxStatus.swift; sourceTree = "<group>"; };
+		2D6D513C65F724DC3560449E4D89FFBE /* HSSTextAreaView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextAreaView.swift; sourceTree = "<group>"; };
+		304DE3F93236368C4BE0DA5F828474B7 /* HSSCheckboxAccessibilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxAccessibilityManager.swift; sourceTree = "<group>"; };
+		320C22088AD9B50335B8BE276D985484 /* HSSButtonViewIconLeft.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HSSButtonViewIconLeft.xib; path = "HSS-UI/Classes/Resources/HSSButtonViewIconLeft.xib"; sourceTree = "<group>"; };
+		322F1E56B10AFDBBD6EDAF48372DE756 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/include/PureLayout.h; sourceTree = "<group>"; };
+		32849B88153EFE10C42AD9EF8CED9FDF /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/include/PureLayoutDefines.h; sourceTree = "<group>"; };
+		32FBB419BCE8AA6A62AF7E7F3FABD3AF /* HSSTextFieldIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldIconView.swift; sourceTree = "<group>"; };
+		34BA2D240A58C0552547E5848A5A5556 /* HSSButtonSizeMedium.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonSizeMedium.swift; sourceTree = "<group>"; };
+		34BAC89A0D67B845F11A344C27F12EED /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
+		37DA3B5BE48899721C979356074C4A66 /* HSSTextFieldRightComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldRightComponent.swift; sourceTree = "<group>"; };
+		39325B5DC84E75304333EC0070974718 /* HSSFontStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSFontStyle.swift; sourceTree = "<group>"; };
+		3BF4A6728BF8959EBBACD484E7BC8534 /* UILabel+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Additions.swift"; sourceTree = "<group>"; };
+		3CF160F7819B1ABEF5C5C4E0E0A3D822 /* HSSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButton.swift; sourceTree = "<group>"; };
+		3EC27CB602AF24E5C49353969AEB1406 /* HSSTextFieldDefaultView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HSSTextFieldDefaultView.xib; path = "HSS-UI/Classes/Resources/HSSTextFieldDefaultView.xib"; sourceTree = "<group>"; };
+		3F4E291A79C3CC67EB18108DBF87C0F3 /* HSSLabelInternalConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSLabelInternalConfig.swift; sourceTree = "<group>"; };
+		4197192343EA8ECDF44E6720A895143A /* HSS-UI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSS-UI-umbrella.h"; sourceTree = "<group>"; };
+		43BABA4E45F00183CC3CCB895FA81590 /* HSSCheckboxType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxType.swift; sourceTree = "<group>"; };
+		462E79120A776CEFBB63B2AAF7D2363A /* HSSUITextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSUITextView.swift; sourceTree = "<group>"; };
+		46BB9E3E4539B79A957084536CCA5FF7 /* HSSButtonAccessibilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonAccessibilityManager.swift; sourceTree = "<group>"; };
+		47F37BB114B8EDA845BA99165B0DF4A4 /* Pods-HSS-UI_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HSS-UI_Example"; path = Pods_HSS_UI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B2C553A17C85D3D764140EBE18602C /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		4AC223240E12ED57B3AE25DD84167DB9 /* HSSTextFieldBorderLayerDashed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldBorderLayerDashed.swift; sourceTree = "<group>"; };
+		4E4D25E5756FEC9CC7F8322A45E4928F /* HSSButtonHierarchyLoud.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonHierarchyLoud.swift; sourceTree = "<group>"; };
+		5262D50F6BD92D805659455209768A6C /* HSSLabelAccessibilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSLabelAccessibilityManager.swift; sourceTree = "<group>"; };
+		550F3001C31A617010B085F392251C0E /* HSSTextAreaView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HSSTextAreaView.xib; path = "HSS-UI/Classes/Resources/HSSTextAreaView.xib"; sourceTree = "<group>"; };
+		571ED28867CD0785EC396BABDFB85847 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		576544C7D8A4BB177826F84025E8E815 /* HSSTextFieldComponentLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldComponentLabel.swift; sourceTree = "<group>"; };
+		5971E2812AC1BCC2B2B57B60A9A48DAE /* HSSCheckboxTypeDisabled.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxTypeDisabled.swift; sourceTree = "<group>"; };
+		5973E7BCCCC6500EB1881B1D6753051E /* HSSTextFieldViewConfigFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldViewConfigFactory.swift; sourceTree = "<group>"; };
+		5A91825C5CDBB41C0788BC455A45795C /* HSSTextFieldComponentCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldComponentCheck.swift; sourceTree = "<group>"; };
+		5B9E6B4751217A148F0FBC2A3193D658 /* HSSTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldDelegate.swift; sourceTree = "<group>"; };
+		5DB7A6E537827636338274116D0A84E8 /* UITapGestureRecognizer+didTapAttributedTextInLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+didTapAttributedTextInLabel.swift"; sourceTree = "<group>"; };
+		5DF906DC62D21913CD509A1D5BEBDAE4 /* HSSButtonSizeSmall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonSizeSmall.swift; sourceTree = "<group>"; };
+		5EE456FB7014B16A2FDAD1A6C1EF7861 /* HSSTextFieldStateWarning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldStateWarning.swift; sourceTree = "<group>"; };
+		60F671C98410D3D4FA1A2B4C42CF630A /* Pods-HSS-UI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS-UI_Example-Info.plist"; sourceTree = "<group>"; };
+		630B1FAA7C2B07C0D22647EE073FF1E2 /* HSSButtonSizeLarge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonSizeLarge.swift; sourceTree = "<group>"; };
+		638F70C6AD1616A06C91CDC319912553 /* Pods-HSS-UI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS-UI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		65E989FA415A8285BC4322F96C2907A8 /* HSSButtonViewIconRight.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HSSButtonViewIconRight.xib; path = "HSS-UI/Classes/Resources/HSSButtonViewIconRight.xib"; sourceTree = "<group>"; };
+		682142E1B872E4CB041B2550CEF01DD0 /* HSSButtonAbstractView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonAbstractView.swift; sourceTree = "<group>"; };
+		6F7CAF7AAD2248EDB7C709C8D7AF353D /* HSSTextFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldView.swift; sourceTree = "<group>"; };
+		714F8D67D05B976B966BDDA326CB8D2D /* HSSButtonViewConfigFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonViewConfigFactory.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7307EEA59CC44BDDD99A03A5A47AD827 /* HSSUIAccessibilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSUIAccessibilityManager.swift; sourceTree = "<group>"; };
+		73437DB696F5078C94971A276425A720 /* Pods-HSS-UI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS-UI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74632D3AB225443195D9A8644688A1A3 /* HSSButtonViewIconRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonViewIconRight.swift; sourceTree = "<group>"; };
+		75912FD6293D0F7E924D58A73D10A497 /* HSSTextInputPaddingFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextInputPaddingFactory.swift; sourceTree = "<group>"; };
+		76DBDE5F25BD6CD1FAC09149D3B02CEA /* HSSTextArea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextArea.swift; sourceTree = "<group>"; };
+		77EE8FB710C15EE95B29074F15DFFBF2 /* HSSTextFieldComponentCheckbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldComponentCheckbox.swift; sourceTree = "<group>"; };
+		780F174F0F6B8C7065BDC67FA4586647 /* HSSIconsStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSIconsStrategy.swift; sourceTree = "<group>"; };
+		7A0631998C929EB7E999B3CDA7156571 /* HSSEnumStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSEnumStringConvertible.swift; sourceTree = "<group>"; };
+		7BAB57D294F2D5987D4AD08F310CA6B1 /* HSSButtonHierarchyQuiet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonHierarchyQuiet.swift; sourceTree = "<group>"; };
+		7DDD3383753A02BDACBE1D1AC11FBC95 /* HSSTextFieldSideComponentFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldSideComponentFactory.swift; sourceTree = "<group>"; };
+		7DEBAD638171F3B06FBECA1047288D32 /* HSS-UI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "HSS-UI.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F3C6B66CC70AFFFACF08F91E0CCE67B /* HSSTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextField.swift; sourceTree = "<group>"; };
+		7F71790DEEF9C0D5C49B43DA9D1E1C0D /* HSSCheckboxStatusFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxStatusFactory.swift; sourceTree = "<group>"; };
+		80F96E4ABE8F89F7939CD79D6E6FB7CE /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		822D327F42E97C66EA435E5A501BF719 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84D9FD75646605AE4BB593A155E008BD /* PureLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.debug.xcconfig; sourceTree = "<group>"; };
+		85E99873389A383BB693A8331C0E4EAD /* HSS-UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HSS-UI.debug.xcconfig"; sourceTree = "<group>"; };
+		88924925D43819534E9362F622574C6F /* HSSButtonHierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonHierarchy.swift; sourceTree = "<group>"; };
+		892C557854C2BF70362841FACA76A2EC /* HSSColorStrategyiOS10.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSColorStrategyiOS10.swift; sourceTree = "<group>"; };
+		894A56851406128D717C03C1311BA06E /* Pods-HSS-UI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSS-UI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B72EA8496F770C686A78935045642F7 /* Pods-HSS-UI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSS-UI_Example-dummy.m"; sourceTree = "<group>"; };
+		8EBBB41EB02AE6D7D3A8EE0D3B692E71 /* HSSLabelBodyConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSLabelBodyConfig.swift; sourceTree = "<group>"; };
+		8EEE6E8447E5CE9A7B5DADC8BB1E082D /* HSS-UI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSS-UI-dummy.m"; sourceTree = "<group>"; };
+		90D0A6FADD0E5C1AB555F7E449713FC0 /* HSS-UI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "HSS-UI.modulemap"; sourceTree = "<group>"; };
+		9410594EE86905187D355B5F563B25BE /* HSSTextFieldViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldViewDelegate.swift; sourceTree = "<group>"; };
+		9458B60191A190AB842EBA5C8527A6DD /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		9739A57B6CF6EF4F2D7E72DB1A94D2AB /* Pods-HSS-UI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HSS-UI_Tests"; path = Pods_HSS_UI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97501F9366F9E5E49CE81B6A7158F6AC /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		98818EB144ABE2779CBBC7CA3D3E0714 /* HSSTextFieldStateIdle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldStateIdle.swift; sourceTree = "<group>"; };
+		99F11BFFCC5244C0AA9C8156020A7024 /* HSSTextFieldBorderLayerDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldBorderLayerDefault.swift; sourceTree = "<group>"; };
+		9A2AB43633BCD8F89B89E89CB1DA0965 /* HSSTextFieldStateFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldStateFactory.swift; sourceTree = "<group>"; };
+		9B5066A58276330E631B838A8A902412 /* HSSButtonViewWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonViewWithIcon.swift; sourceTree = "<group>"; };
+		9CE3DFF4F4696CF7D9EE02D8B01BE4C1 /* HSSTextFieldComponentAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldComponentAction.swift; sourceTree = "<group>"; };
+		9D0B9AC1BDDCC8AE5A66BEE8F1AA4562 /* HSSBodyLinks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSBodyLinks.swift; sourceTree = "<group>"; };
+		9D1F3B63CAE1BD8821E25B0742F9B9F2 /* HSSCheckboxAlign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxAlign.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A018B02B878C3EDF87C71D8F9C4DED8E /* HSSButtonHierarchyFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonHierarchyFactory.swift; sourceTree = "<group>"; };
+		A054EB9ADC4ECC68FDAF4C908430C1F2 /* HSSTextAreaDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextAreaDelegate.swift; sourceTree = "<group>"; };
+		A0ADA80711E385711FCA71F616504029 /* HSSButtonSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonSize.swift; sourceTree = "<group>"; };
+		A1CC077FD0B213F547F07BBC515A73D8 /* ResourceBundle-HSS-UIResources-HSS-UI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HSS-UIResources-HSS-UI-Info.plist"; sourceTree = "<group>"; };
+		A29855B92667CD53183643BBE6E17635 /* HSSTextFieldComponentClear.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldComponentClear.swift; sourceTree = "<group>"; };
+		A2F3A076320912A1CEE4D52F14866635 /* HSSLabelTitleSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSLabelTitleSize.swift; sourceTree = "<group>"; };
+		A59134392A3576DBD1EC1320E9313667 /* HSSTextFieldEmptySideComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldEmptySideComponent.swift; sourceTree = "<group>"; };
+		A5BE52B7591C3EFCF2C8487EE57F74A3 /* HSSBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSBundle.swift; sourceTree = "<group>"; };
+		A61C9F823885B1ABC15E4936C2074885 /* Pods-HSS-UI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSS-UI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A72F7E3B6D4AF6293CC728D1825B946B /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/include/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		A87322090EE13FFCB6FF89A84E562BD5 /* Pods-HSS-UI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS-UI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8DEBE5EFF32DAD5A6166CE3396C0CAD /* Pods-HSS-UI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSS-UI_Example.modulemap"; sourceTree = "<group>"; };
+		A8FE1595D6498C0E2CC1B715053C60F3 /* HSSCheckbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckbox.swift; sourceTree = "<group>"; };
+		AA5766AB2C57805ED2984D46CADFFD85 /* HSSTextFieldComponentIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldComponentIcon.swift; sourceTree = "<group>"; };
+		ABC089F6A5FF4203671B85E40022E9A2 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		AF3FB8E9F3E20358B41224787D054328 /* HSSButtonSizeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonSizeProtocol.swift; sourceTree = "<group>"; };
+		B05798A312F0AD54991DDD2D3BC67053 /* HSS-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HSS-UI.release.xcconfig"; sourceTree = "<group>"; };
+		B7676E7C884D9DDBEBA93901616E0CA6 /* HSSLabelBodySize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSLabelBodySize.swift; sourceTree = "<group>"; };
+		B79937F1A50597013A55640F7AAABB0F /* HSSBodyLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSBodyLink.swift; sourceTree = "<group>"; };
+		B7C44BC945171FD81F015DC3F48478B5 /* PureLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.release.xcconfig; sourceTree = "<group>"; };
+		B9E386439465C8252DE83EED53DBC4D3 /* UIView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		BD3C2D57B0ADF9B7A87E1F6081DCB8F7 /* TextFieldPaddingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextFieldPaddingView.swift; sourceTree = "<group>"; };
+		BD9EDA9D68A7EE6DC2579DCFE1F0DA65 /* HSSTextFieldInputTrait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldInputTrait.swift; sourceTree = "<group>"; };
+		BDB438527E359CD168D7D2ECEB207571 /* HSSButtonHierarchyProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonHierarchyProtocol.swift; sourceTree = "<group>"; };
+		C1523B0CA15425D2201EDABD3118900A /* Pods-HSS-UI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSS-UI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C8AB32E396153D2E2A2C1207F64563EA /* HSSTextFieldStateProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldStateProtocol.swift; sourceTree = "<group>"; };
+		CE6B2A6882F1E989A0F76B63A855E987 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		CF997ADBADCFCA43D8261DED30799D61 /* HSSTextFieldClearView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldClearView.swift; sourceTree = "<group>"; };
+		D0F0B925AEBD58C70E83EC6CCD9773A6 /* HSSCheckboxTypeFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxTypeFactory.swift; sourceTree = "<group>"; };
+		D2A3FA03912DF1E5EB755DA4D111FD33 /* HSSCheckboxTypeIdle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxTypeIdle.swift; sourceTree = "<group>"; };
+		D37D39151EBFF9E52EFAADFEA62C9008 /* HSSCheckboxStatusSelected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxStatusSelected.swift; sourceTree = "<group>"; };
+		D3E19E3A79864B7F0E7A9C6190CA70E1 /* HSSStyleSheetDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSStyleSheetDefault.swift; sourceTree = "<group>"; };
+		D43F6ACD50BD31DAC55C5692D8F6FEF5 /* HSSCheckboxDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxDefaultView.swift; sourceTree = "<group>"; };
+		D59460C9AB848C6EF68B55F91769845C /* HSSTextFieldStateDisabled.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldStateDisabled.swift; sourceTree = "<group>"; };
+		D925BD7C47328B4189BED86503386D82 /* HSSButtonDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonDefaultView.swift; sourceTree = "<group>"; };
+		D95BA5559E8EE97AF8CE2757639D6E24 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		D95D3F6E21282B004D42BCA389D934EA /* HSSButtonHierarchyTransparent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonHierarchyTransparent.swift; sourceTree = "<group>"; };
+		D99E593481633A6976924DE9E6C1E56C /* HSSStringsLocalizableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSStringsLocalizableExtensions.swift; sourceTree = "<group>"; };
+		DBB4D1D3BB9AF2C9358DC04278EEF1EB /* HSSTextFieldComponentReloadPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldComponentReloadPolicy.swift; sourceTree = "<group>"; };
+		DD74C6F9E1F246CE7D2CA8BB070EBA5D /* HSSCheckboxTypeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxTypeProtocol.swift; sourceTree = "<group>"; };
+		DD836060165F036EE6132E07D878B4C4 /* HSSCheckboxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxView.swift; sourceTree = "<group>"; };
+		DDCA84BECBF4BDA6723FF1D4CEA3CE50 /* HSSTextFieldComponentVisibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldComponentVisibility.swift; sourceTree = "<group>"; };
+		DDFDC27B586F8842B429B5CF754FD895 /* Pods-HSS-UI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS-UI_Tests-Info.plist"; sourceTree = "<group>"; };
+		DE65326153F710FA789D904DC5B625FD /* Pods-HSS-UI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSS-UI_Tests-dummy.m"; sourceTree = "<group>"; };
+		DF0C9A3373FBC2FF2BA971134DD56181 /* HSSTextFieldStateError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldStateError.swift; sourceTree = "<group>"; };
+		DF3BFDFAD050B4F498F0FE59A6BFE7F5 /* HSSTextFieldDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldDefaultView.swift; sourceTree = "<group>"; };
+		E19C67078A379FAFD91C7F46844C5399 /* HSSLabelColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSLabelColor.swift; sourceTree = "<group>"; };
+		E1C2F46B585D42AFC8C2E541D15F91B9 /* Pods-HSS-UI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSS-UI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E31B31B913DB7D1078E530D6E48B2922 /* HSSButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonView.swift; sourceTree = "<group>"; };
+		E3524A558E781664B6D838BB6781CFFE /* HSSCheckboxViewConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSCheckboxViewConfig.swift; sourceTree = "<group>"; };
+		E3E75D6BDA1FC43CAF5644C6C895A249 /* HSSIconsLocalStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSIconsLocalStrategy.swift; sourceTree = "<group>"; };
+		E409CB106CD21C49BBA3FCA4C05266A7 /* HSSBodyBolds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSBodyBolds.swift; sourceTree = "<group>"; };
+		E450377FBA8161DB676DEA1A499254BE /* HSSButtonIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSButtonIcon.swift; sourceTree = "<group>"; };
+		E4AD0B5E97C54C5BC8FE481480331ECE /* HSS-UI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSS-UI-prefix.pch"; sourceTree = "<group>"; };
+		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97F1717C2915592C0601CBA6365136F /* HSSTextFieldLabelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldLabelView.swift; sourceTree = "<group>"; };
+		EA5E77D63FD90CF1AFF0C30D09D53578 /* HSS-UI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "HSS-UI"; path = HSS_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB76C03D7004D70E5337F4B4B8E6BD17 /* HSSTextFieldProgressIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldProgressIndicatorView.swift; sourceTree = "<group>"; };
+		EBB756C751D0B1666579C39798D5426D /* HSSTextFieldStateReadonly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldStateReadonly.swift; sourceTree = "<group>"; };
+		EC611A96A8E26CA568446E23EDE47109 /* HSSBodyBold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSBodyBold.swift; sourceTree = "<group>"; };
+		EE5F8AB2429F7D80C75BDFC4D79D854F /* HSSTextInputState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextInputState.swift; sourceTree = "<group>"; };
+		F0AEAC85E9685D8D7771677F22E983EF /* HSSTextInputTraitsFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextInputTraitsFactory.swift; sourceTree = "<group>"; };
+		F36735342471A3BEE5C7D8F1848AB50F /* HSSStyleSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSStyleSheet.swift; sourceTree = "<group>"; };
+		F3AA5725F15B740F0C5A11101E2A8D05 /* HSSColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSColor.swift; sourceTree = "<group>"; };
+		F560318C3205B4CFEB4B65B7E31D0BDE /* HSS-UI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HSS-UI-Info.plist"; sourceTree = "<group>"; };
+		F586BEED4AEB99CD5891B22AAF92D5E8 /* HSSIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSIcons.swift; sourceTree = "<group>"; };
+		F90B2E04EFB939C836BA02137FC89D3B /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/include/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		F92BFFDC817406CA2C6FF08DBBF579ED /* HSSLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSLabel.swift; sourceTree = "<group>"; };
+		F96F7444FCAC923983A4B44AC80E7AEE /* HSSLabelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSLabelType.swift; sourceTree = "<group>"; };
+		F9A47BC967465EAA9D9442000ABC50ED /* HSSCheckboxDefaultView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HSSCheckboxDefaultView.xib; path = "HSS-UI/Classes/Resources/HSSCheckboxDefaultView.xib"; sourceTree = "<group>"; };
+		FE5C6641599FFE8AA4D9C1A9C6083755 /* HSSButtonViewDefault.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HSSButtonViewDefault.xib; path = "HSS-UI/Classes/Resources/HSSButtonViewDefault.xib"; sourceTree = "<group>"; };
+		FFFCB3BE4669E9F1AC7EE0B5F736D983 /* HSSTextFieldComponentProgressIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HSSTextFieldComponentProgressIndicator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B70D1C9DB543D40221A1B5606E6FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FDBFB84946508813C8CA1747D4F724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8D18BA9B4588D4417E3AB48861A439 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D88932F5B6BE3FF4709FE8DDD4CF309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DA9F0F2EDA4D94532B9043496A0B2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9E448B4D979E5B2B1BEAF635CE8A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1277E771C9814835220E3CB15521FC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BBF2B8B3213834857FFA773738738B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4552B06478EF11380A603A712C1E0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0457C28F4F2352DD3959190DE2C77F18 /* Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				A8FE1595D6498C0E2CC1B715053C60F3 /* HSSCheckbox.swift */,
+				304DE3F93236368C4BE0DA5F828474B7 /* HSSCheckboxAccessibilityManager.swift */,
+				C5D5956190BC7253D370EA2612518FAF /* Align */,
+				D6A0FE205ACD23DB52C0DD54D32D82A8 /* Config */,
+				D7E09ACAC589287BF14BC3600167FF8E /* Status */,
+				F5A71C232819A9924165DDEE861CAD52 /* Type */,
+				0DEAA9DBC0CE95FB6E89BB8951F04439 /* View */,
+			);
+			name = Checkbox;
+			path = "HSS-UI/Classes/Core/Checkbox";
+			sourceTree = "<group>";
+		};
+		04A2C822144CEC05EB5AD23AE0036229 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A603A878E5436DC43878A309A49F56C /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0796C6D7C22D508257E6C69196135928 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE52B7591C3EFCF2C8487EE57F74A3 /* HSSBundle.swift */,
+			);
+			name = Bundle;
+			path = "HSS-UI/Classes/Core/Bundle";
+			sourceTree = "<group>";
+		};
+		07F5240B1ADCA2FC068386405D5CC7FF /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				A0ADA80711E385711FCA71F616504029 /* HSSButtonSize.swift */,
+				23C93DD1F460F985D0C9DF2B94785E99 /* HSSButtonSizeFactory.swift */,
+				630B1FAA7C2B07C0D22647EE073FF1E2 /* HSSButtonSizeLarge.swift */,
+				34BA2D240A58C0552547E5848A5A5556 /* HSSButtonSizeMedium.swift */,
+				AF3FB8E9F3E20358B41224787D054328 /* HSSButtonSizeProtocol.swift */,
+				5DF906DC62D21913CD509A1D5BEBDAE4 /* HSSButtonSizeSmall.swift */,
+			);
+			path = Size;
+			sourceTree = "<group>";
+		};
+		0C1BA4F5295AC7225B5B683021A9AF4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04426F47B6E9977A659A2D18389D93EA /* HSSTextFieldActionView.swift */,
+				1A26A6F202C382D87B899CE0488E2FD2 /* HSSTextFieldCheckboxView.swift */,
+				CF997ADBADCFCA43D8261DED30799D61 /* HSSTextFieldClearView.swift */,
+				32FBB419BCE8AA6A62AF7E7F3FABD3AF /* HSSTextFieldIconView.swift */,
+				E97F1717C2915592C0601CBA6365136F /* HSSTextFieldLabelView.swift */,
+				EB76C03D7004D70E5337F4B4B8E6BD17 /* HSSTextFieldProgressIndicatorView.swift */,
+				BD3C2D57B0ADF9B7A87E1F6081DCB8F7 /* TextFieldPaddingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DEAA9DBC0CE95FB6E89BB8951F04439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D43F6ACD50BD31DAC55C5692D8F6FEF5 /* HSSCheckboxDefaultView.swift */,
+				DD836060165F036EE6132E07D878B4C4 /* HSSCheckboxView.swift */,
+				0D4CC24C17A463A4A425F83F863561C5 /* HSSCheckboxViewDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E0FB7F729132415936BD655A1F7AD01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90D0A6FADD0E5C1AB555F7E449713FC0 /* HSS-UI.modulemap */,
+				8EEE6E8447E5CE9A7B5DADC8BB1E082D /* HSS-UI-dummy.m */,
+				F560318C3205B4CFEB4B65B7E31D0BDE /* HSS-UI-Info.plist */,
+				E4AD0B5E97C54C5BC8FE481480331ECE /* HSS-UI-prefix.pch */,
+				4197192343EA8ECDF44E6720A895143A /* HSS-UI-umbrella.h */,
+				85E99873389A383BB693A8331C0E4EAD /* HSS-UI.debug.xcconfig */,
+				B05798A312F0AD54991DDD2D3BC67053 /* HSS-UI.release.xcconfig */,
+				A1CC077FD0B213F547F07BBC515A73D8 /* ResourceBundle-HSS-UIResources-HSS-UI-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HSS-UI";
+			sourceTree = "<group>";
+		};
+		24EC6EFF907BCF6A6439E6EBD7B6531B /* Pods-HSS-UI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A8DEBE5EFF32DAD5A6166CE3396C0CAD /* Pods-HSS-UI_Example.modulemap */,
+				167D0E38B14F41461223A0975C596646 /* Pods-HSS-UI_Example-acknowledgements.markdown */,
+				A87322090EE13FFCB6FF89A84E562BD5 /* Pods-HSS-UI_Example-acknowledgements.plist */,
+				8B72EA8496F770C686A78935045642F7 /* Pods-HSS-UI_Example-dummy.m */,
+				A61C9F823885B1ABC15E4936C2074885 /* Pods-HSS-UI_Example-frameworks.sh */,
+				60F671C98410D3D4FA1A2B4C42CF630A /* Pods-HSS-UI_Example-Info.plist */,
+				29147E3E898FD786B3B4C66688B3244E /* Pods-HSS-UI_Example-umbrella.h */,
+				73437DB696F5078C94971A276425A720 /* Pods-HSS-UI_Example.debug.xcconfig */,
+				C1523B0CA15425D2201EDABD3118900A /* Pods-HSS-UI_Example.release.xcconfig */,
+			);
+			name = "Pods-HSS-UI_Example";
+			path = "Target Support Files/Pods-HSS-UI_Example";
+			sourceTree = "<group>";
+		};
+		366ABDF05C6982A3F15EE1C007E4E89B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7DEBAD638171F3B06FBECA1047288D32 /* HSS-UI.podspec */,
+				1BF194736D40C214AFEA2C85875AAB36 /* LICENSE */,
+				822D327F42E97C66EA435E5A501BF719 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3AE0013FC384294EF1447176C303C4FE /* SideComponents */ = {
+			isa = PBXGroup;
+			children = (
+				DBB4D1D3BB9AF2C9358DC04278EEF1EB /* HSSTextFieldComponentReloadPolicy.swift */,
+				DDCA84BECBF4BDA6723FF1D4CEA3CE50 /* HSSTextFieldComponentVisibility.swift */,
+				7DDD3383753A02BDACBE1D1AC11FBC95 /* HSSTextFieldSideComponentFactory.swift */,
+				3E13FCAB638BA329F0D4ECC3362EE0B1 /* Components */,
+			);
+			path = SideComponents;
+			sourceTree = "<group>";
+		};
+		3E13FCAB638BA329F0D4ECC3362EE0B1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9CE3DFF4F4696CF7D9EE02D8B01BE4C1 /* HSSTextFieldComponentAction.swift */,
+				5A91825C5CDBB41C0788BC455A45795C /* HSSTextFieldComponentCheck.swift */,
+				77EE8FB710C15EE95B29074F15DFFBF2 /* HSSTextFieldComponentCheckbox.swift */,
+				A29855B92667CD53183643BBE6E17635 /* HSSTextFieldComponentClear.swift */,
+				AA5766AB2C57805ED2984D46CADFFD85 /* HSSTextFieldComponentIcon.swift */,
+				576544C7D8A4BB177826F84025E8E815 /* HSSTextFieldComponentLabel.swift */,
+				FFFCB3BE4669E9F1AC7EE0B5F736D983 /* HSSTextFieldComponentProgressIndicator.swift */,
+				A59134392A3576DBD1EC1320E9313667 /* HSSTextFieldEmptySideComponent.swift */,
+				0388C74DE392561EA50CF72C55E8D6DE /* HSSTextFieldLeftComponent.swift */,
+				37DA3B5BE48899721C979356074C4A66 /* HSSTextFieldRightComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		408B5DD18BDC9F0935DD851ED777400B /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				76DBDE5F25BD6CD1FAC09149D3B02CEA /* HSSTextArea.swift */,
+				A054EB9ADC4ECC68FDAF4C908430C1F2 /* HSSTextAreaDelegate.swift */,
+				7F3C6B66CC70AFFFACF08F91E0CCE67B /* HSSTextField.swift */,
+				18BC4174A92742A9EB30B700C1E56806 /* HSSTextFieldAccessibilityManager.swift */,
+				5B9E6B4751217A148F0FBC2A3193D658 /* HSSTextFieldDelegate.swift */,
+				587F1E7790D24EA446DBDC757A4E27F1 /* Borders */,
+				E268EB4EB411372AB59845C8DA3802BE /* ComponentsView */,
+				849FFBCD4C9865CCC03D694659A57483 /* Config */,
+				F0BE1CF9D992F4A5862D5AA8C7E89389 /* Input */,
+				3AE0013FC384294EF1447176C303C4FE /* SideComponents */,
+				8B4586F02D9E4EA4953FD8060668B9EA /* State */,
+				0C1BA4F5295AC7225B5B683021A9AF4A /* Views */,
+			);
+			name = TextField;
+			path = "HSS-UI/Classes/Core/TextField";
+			sourceTree = "<group>";
+		};
+		433C66A0C2DA657FB956011036B46163 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24EC6EFF907BCF6A6439E6EBD7B6531B /* Pods-HSS-UI_Example */,
+				F1C3AB73C71F665FD5DD9B231653762E /* Pods-HSS-UI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A603A878E5436DC43878A309A49F56C /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				123A254A231B536E205426F275C27915 /* ALView+PureLayout.h */,
+				97501F9366F9E5E49CE81B6A7158F6AC /* ALView+PureLayout.m */,
+				A72F7E3B6D4AF6293CC728D1825B946B /* NSArray+PureLayout.h */,
+				1993BD8BEB4BCC6E3B512FF70A5E063D /* NSArray+PureLayout.m */,
+				F90B2E04EFB939C836BA02137FC89D3B /* NSLayoutConstraint+PureLayout.h */,
+				CE6B2A6882F1E989A0F76B63A855E987 /* NSLayoutConstraint+PureLayout.m */,
+				322F1E56B10AFDBBD6EDAF48372DE756 /* PureLayout.h */,
+				80F96E4ABE8F89F7939CD79D6E6FB7CE /* PureLayout+Internal.h */,
+				32849B88153EFE10C42AD9EF8CED9FDF /* PureLayoutDefines.h */,
+				E5864BB486BC7D5C176B29FA67E7A37D /* Support Files */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		4AE1F911AD56D372670F1F68BC6A6CD5 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				3CF160F7819B1ABEF5C5C4E0E0A3D822 /* HSSButton.swift */,
+				46BB9E3E4539B79A957084536CCA5FF7 /* HSSButtonAccessibilityManager.swift */,
+				4B1BFA9FE78E959C845EDD77D8A98F5F /* Config */,
+				D4A47B4C559D34F41D777BB49D4035F2 /* Hierarchy */,
+				ABF2612CB94137282FACEA8D265B4A8A /* Icon */,
+				07F5240B1ADCA2FC068386405D5CC7FF /* Size */,
+				5A6BB2C23BD7B1B34FF5C1997E83AE8A /* View */,
+			);
+			name = Button;
+			path = "HSS-UI/Classes/Core/Button";
+			sourceTree = "<group>";
+		};
+		4B1BFA9FE78E959C845EDD77D8A98F5F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2143C520A03AE83E1160FC37E93964A9 /* HSSButtonViewConfig.swift */,
+				714F8D67D05B976B966BDDA326CB8D2D /* HSSButtonViewConfigFactory.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		4C5DE757CD4BF9A419FC67E8060A73CE /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				03313948B4247D0B26E41AD25CA3D28B /* UIApplication+Additions.swift */,
+				3BF4A6728BF8959EBBACD484E7BC8534 /* UILabel+Additions.swift */,
+				B9E386439465C8252DE83EED53DBC4D3 /* UIView+Additions.swift */,
+			);
+			name = Additions;
+			path = "HSS-UI/Classes/Core/Additions";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		587F1E7790D24EA446DBDC757A4E27F1 /* Borders */ = {
+			isa = PBXGroup;
+			children = (
+				4AC223240E12ED57B3AE25DD84167DB9 /* HSSTextFieldBorderLayerDashed.swift */,
+				99F11BFFCC5244C0AA9C8156020A7024 /* HSSTextFieldBorderLayerDefault.swift */,
+			);
+			path = Borders;
+			sourceTree = "<group>";
+		};
+		58B4B9778740B4EBC4C77FF9CDA2B76B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E77D63FD90CF1AFF0C30D09D53578 /* HSS-UI */,
+				03339E99BA7690B95F8A02ACE252D5FA /* HSS-UI-HSS-UIResources */,
+				47F37BB114B8EDA845BA99165B0DF4A4 /* Pods-HSS-UI_Example */,
+				9739A57B6CF6EF4F2D7E72DB1A94D2AB /* Pods-HSS-UI_Tests */,
+				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6BB2C23BD7B1B34FF5C1997E83AE8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				682142E1B872E4CB041B2550CEF01DD0 /* HSSButtonAbstractView.swift */,
+				D925BD7C47328B4189BED86503386D82 /* HSSButtonDefaultView.swift */,
+				E31B31B913DB7D1078E530D6E48B2922 /* HSSButtonView.swift */,
+				2A05E082AAB14E45F82E44003C8C6F87 /* HSSButtonViewIconLeft.swift */,
+				74632D3AB225443195D9A8644688A1A3 /* HSSButtonViewIconRight.swift */,
+				9B5066A58276330E631B838A8A902412 /* HSSButtonViewWithIcon.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69BE19F50A279794F8DB822E1B14E50E /* HSS-UI */ = {
+			isa = PBXGroup;
+			children = (
+				FE5C6641599FFE8AA4D9C1A9C6083755 /* HSSButtonViewDefault.xib */,
+				320C22088AD9B50335B8BE276D985484 /* HSSButtonViewIconLeft.xib */,
+				65E989FA415A8285BC4322F96C2907A8 /* HSSButtonViewIconRight.xib */,
+				F9A47BC967465EAA9D9442000ABC50ED /* HSSCheckboxDefaultView.xib */,
+				550F3001C31A617010B085F392251C0E /* HSSTextAreaView.xib */,
+				3EC27CB602AF24E5C49353969AEB1406 /* HSSTextFieldDefaultView.xib */,
+				4C5DE757CD4BF9A419FC67E8060A73CE /* Additions */,
+				0796C6D7C22D508257E6C69196135928 /* Bundle */,
+				4AE1F911AD56D372670F1F68BC6A6CD5 /* Button */,
+				0457C28F4F2352DD3959190DE2C77F18 /* Checkbox */,
+				DCDD377E14EABAB45A83C11AC54F1FF9 /* IconProvider */,
+				EF63E65C6A3A3E2CE9DA98F3E8312A36 /* Label */,
+				D92ED5820ED0FB25CE316F2BFA940ABA /* Message */,
+				366ABDF05C6982A3F15EE1C007E4E89B /* Pod */,
+				B4EF3EE5A840BA078FFB8BFBD648FB7C /* Stylesheet */,
+				1E0FB7F729132415936BD655A1F7AD01 /* Support Files */,
+				408B5DD18BDC9F0935DD851ED777400B /* TextField */,
+				FDBC2671FE887DE998949883F9E5AAD2 /* Utils */,
+			);
+			name = "HSS-UI";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7321C8A53119494F33C52CCA5708D81D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69BE19F50A279794F8DB822E1B14E50E /* HSS-UI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		849FFBCD4C9865CCC03D694659A57483 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				04809988F628895192A064D094767A00 /* HSSTextFieldViewConfig.swift */,
+				5973E7BCCCC6500EB1881B1D6753051E /* HSSTextFieldViewConfigFactory.swift */,
+				01EB5E19130CF2B6DAF842CAD7385669 /* HSSTextInputPadding.swift */,
+				75912FD6293D0F7E924D58A73D10A497 /* HSSTextInputPaddingFactory.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		8B4586F02D9E4EA4953FD8060668B9EA /* State */ = {
+			isa = PBXGroup;
+			children = (
+				EE5F8AB2429F7D80C75BDFC4D79D854F /* HSSTextInputState.swift */,
+				D59460C9AB848C6EF68B55F91769845C /* HSSTextFieldStateDisabled.swift */,
+				DF0C9A3373FBC2FF2BA971134DD56181 /* HSSTextFieldStateError.swift */,
+				9A2AB43633BCD8F89B89E89CB1DA0965 /* HSSTextFieldStateFactory.swift */,
+				98818EB144ABE2779CBBC7CA3D3E0714 /* HSSTextFieldStateIdle.swift */,
+				C8AB32E396153D2E2A2C1207F64563EA /* HSSTextFieldStateProtocol.swift */,
+				EBB756C751D0B1666579C39798D5426D /* HSSTextFieldStateReadonly.swift */,
+				5EE456FB7014B16A2FDAD1A6C1EF7861 /* HSSTextFieldStateWarning.swift */,
+				0B6711DD06FE69DF621845EC38D4A7B2 /* HSSTextInputState+Info.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		ABF2612CB94137282FACEA8D265B4A8A /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				E450377FBA8161DB676DEA1A499254BE /* HSSButtonIcon.swift */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		B4EF3EE5A840BA078FFB8BFBD648FB7C /* Stylesheet */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA5725F15B740F0C5A11101E2A8D05 /* HSSColor.swift */,
+				892C557854C2BF70362841FACA76A2EC /* HSSColorStrategyiOS10.swift */,
+				39325B5DC84E75304333EC0070974718 /* HSSFontStyle.swift */,
+				F36735342471A3BEE5C7D8F1848AB50F /* HSSStyleSheet.swift */,
+				D3E19E3A79864B7F0E7A9C6190CA70E1 /* HSSStyleSheetDefault.swift */,
+				1C555B3DF9DE065399D332410379F542 /* HSSStyleSheetManager.swift */,
+			);
+			name = Stylesheet;
+			path = "HSS-UI/Classes/Core/Stylesheet";
+			sourceTree = "<group>";
+		};
+		C5D5956190BC7253D370EA2612518FAF /* Align */ = {
+			isa = PBXGroup;
+			children = (
+				9D1F3B63CAE1BD8821E25B0742F9B9F2 /* HSSCheckboxAlign.swift */,
+			);
+			path = Align;
+			sourceTree = "<group>";
+		};
+		C6EF6C7658BAF7B479564C029A67CAFE /* UiKitWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				462E79120A776CEFBB63B2AAF7D2363A /* HSSUITextView.swift */,
+			);
+			path = UiKitWrappers;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7321C8A53119494F33C52CCA5708D81D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				04A2C822144CEC05EB5AD23AE0036229 /* Pods */,
+				58B4B9778740B4EBC4C77FF9CDA2B76B /* Products */,
+				433C66A0C2DA657FB956011036B46163 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2137906E57C9C4C5E0F90844DD4B71D /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BFDFAD050B4F498F0FE59A6BFE7F5 /* HSSTextFieldDefaultView.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		D4A47B4C559D34F41D777BB49D4035F2 /* Hierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				88924925D43819534E9362F622574C6F /* HSSButtonHierarchy.swift */,
+				A018B02B878C3EDF87C71D8F9C4DED8E /* HSSButtonHierarchyFactory.swift */,
+				4E4D25E5756FEC9CC7F8322A45E4928F /* HSSButtonHierarchyLoud.swift */,
+				BDB438527E359CD168D7D2ECEB207571 /* HSSButtonHierarchyProtocol.swift */,
+				7BAB57D294F2D5987D4AD08F310CA6B1 /* HSSButtonHierarchyQuiet.swift */,
+				D95D3F6E21282B004D42BCA389D934EA /* HSSButtonHierarchyTransparent.swift */,
+			);
+			path = Hierarchy;
+			sourceTree = "<group>";
+		};
+		D6A0FE205ACD23DB52C0DD54D32D82A8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E3524A558E781664B6D838BB6781CFFE /* HSSCheckboxViewConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D7E09ACAC589287BF14BC3600167FF8E /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				2C13E251F741F7987765804F40C1A9C1 /* HSSCheckboxStatus.swift */,
+				7F71790DEEF9C0D5C49B43DA9D1E1C0D /* HSSCheckboxStatusFactory.swift */,
+				25EB8CC65E605E12D56A7BFFB866F5E9 /* HSSCheckboxStatusProtocol.swift */,
+				D37D39151EBFF9E52EFAADFEA62C9008 /* HSSCheckboxStatusSelected.swift */,
+				248906022A83374446776F8B21A57183 /* HSSCheckboxStatusUndefined.swift */,
+				105B4F02EFBDAE456C49E2E2B9218B95 /* HSSCheckboxStatusUnselected.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		D92ED5820ED0FB25CE316F2BFA940ABA /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B79937F1A50597013A55640F7AAABB0F /* HSSBodyLink.swift */,
+				9D0B9AC1BDDCC8AE5A66BEE8F1AA4562 /* HSSBodyLinks.swift */,
+			);
+			name = Message;
+			path = "HSS-UI/Classes/Core/Message";
+			sourceTree = "<group>";
+		};
+		DCDD377E14EABAB45A83C11AC54F1FF9 /* IconProvider */ = {
+			isa = PBXGroup;
+			children = (
+				F586BEED4AEB99CD5891B22AAF92D5E8 /* HSSIcons.swift */,
+				E3E75D6BDA1FC43CAF5644C6C895A249 /* HSSIconsLocalStrategy.swift */,
+				150016EEE1160BD587568F3FFE6EF4A9 /* HSSIconsProvider.swift */,
+				780F174F0F6B8C7065BDC67FA4586647 /* HSSIconsStrategy.swift */,
+			);
+			name = IconProvider;
+			path = "HSS-UI/Classes/Core/IconProvider";
+			sourceTree = "<group>";
+		};
+		E268EB4EB411372AB59845C8DA3802BE /* ComponentsView */ = {
+			isa = PBXGroup;
+			children = (
+				1D4714DC217A463725A6FE3F259AC1A3 /* HSSTextFieldAbstractView.swift */,
+				6F7CAF7AAD2248EDB7C709C8D7AF353D /* HSSTextFieldView.swift */,
+				9410594EE86905187D355B5F563B25BE /* HSSTextFieldViewDelegate.swift */,
+				571ED28867CD0785EC396BABDFB85847 /* TextField.swift */,
+				D2137906E57C9C4C5E0F90844DD4B71D /* Default */,
+				ED45D9433F3C7D6117CC0A5B38489FDB /* TextArea */,
+				C6EF6C7658BAF7B479564C029A67CAFE /* UiKitWrappers */,
+			);
+			path = ComponentsView;
+			sourceTree = "<group>";
+		};
+		E5864BB486BC7D5C176B29FA67E7A37D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9458B60191A190AB842EBA5C8527A6DD /* PureLayout.modulemap */,
+				ABC089F6A5FF4203671B85E40022E9A2 /* PureLayout-dummy.m */,
+				34BAC89A0D67B845F11A344C27F12EED /* PureLayout-Info.plist */,
+				D95BA5559E8EE97AF8CE2757639D6E24 /* PureLayout-prefix.pch */,
+				49B2C553A17C85D3D764140EBE18602C /* PureLayout-umbrella.h */,
+				84D9FD75646605AE4BB593A155E008BD /* PureLayout.debug.xcconfig */,
+				B7C44BC945171FD81F015DC3F48478B5 /* PureLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		ED45D9433F3C7D6117CC0A5B38489FDB /* TextArea */ = {
+			isa = PBXGroup;
+			children = (
+				2D6D513C65F724DC3560449E4D89FFBE /* HSSTextAreaView.swift */,
+			);
+			path = TextArea;
+			sourceTree = "<group>";
+		};
+		EF63E65C6A3A3E2CE9DA98F3E8312A36 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				EC611A96A8E26CA568446E23EDE47109 /* HSSBodyBold.swift */,
+				E409CB106CD21C49BBA3FCA4C05266A7 /* HSSBodyBolds.swift */,
+				F92BFFDC817406CA2C6FF08DBBF579ED /* HSSLabel.swift */,
+				5262D50F6BD92D805659455209768A6C /* HSSLabelAccessibilityManager.swift */,
+				8EBBB41EB02AE6D7D3A8EE0D3B692E71 /* HSSLabelBodyConfig.swift */,
+				3F4E291A79C3CC67EB18108DBF87C0F3 /* HSSLabelInternalConfig.swift */,
+				1F3398FFC1BFA7A4FBF852F42334EC33 /* HSSLabelTitleConfig.swift */,
+				FBE0279D6B1E3A9D2B9B09F4A7CDDE6D /* Enums */,
+			);
+			name = Label;
+			path = "HSS-UI/Classes/Core/Label";
+			sourceTree = "<group>";
+		};
+		F0BE1CF9D992F4A5862D5AA8C7E89389 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				BD9EDA9D68A7EE6DC2579DCFE1F0DA65 /* HSSTextFieldInputTrait.swift */,
+				F0AEAC85E9685D8D7771677F22E983EF /* HSSTextInputTraitsFactory.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		F1C3AB73C71F665FD5DD9B231653762E /* Pods-HSS-UI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1BB3E01D6674601A0288B24C33572C /* Pods-HSS-UI_Tests.modulemap */,
+				894A56851406128D717C03C1311BA06E /* Pods-HSS-UI_Tests-acknowledgements.markdown */,
+				E1C2F46B585D42AFC8C2E541D15F91B9 /* Pods-HSS-UI_Tests-acknowledgements.plist */,
+				DE65326153F710FA789D904DC5B625FD /* Pods-HSS-UI_Tests-dummy.m */,
+				DDFDC27B586F8842B429B5CF754FD895 /* Pods-HSS-UI_Tests-Info.plist */,
+				12817AD0D5BD5CB5B9293D28FEE226C4 /* Pods-HSS-UI_Tests-umbrella.h */,
+				638F70C6AD1616A06C91CDC319912553 /* Pods-HSS-UI_Tests.debug.xcconfig */,
+				08EC6E293BEE3A6FA7E5E407C54FD21C /* Pods-HSS-UI_Tests.release.xcconfig */,
+			);
+			name = "Pods-HSS-UI_Tests";
+			path = "Target Support Files/Pods-HSS-UI_Tests";
+			sourceTree = "<group>";
+		};
+		F5A71C232819A9924165DDEE861CAD52 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				43BABA4E45F00183CC3CCB895FA81590 /* HSSCheckboxType.swift */,
+				5971E2812AC1BCC2B2B57B60A9A48DAE /* HSSCheckboxTypeDisabled.swift */,
+				1B880743E66D6F48E899C63B026FA61B /* HSSCheckboxTypeError.swift */,
+				D0F0B925AEBD58C70E83EC6CCD9773A6 /* HSSCheckboxTypeFactory.swift */,
+				D2A3FA03912DF1E5EB755DA4D111FD33 /* HSSCheckboxTypeIdle.swift */,
+				DD74C6F9E1F246CE7D2CA8BB070EBA5D /* HSSCheckboxTypeProtocol.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		FBE0279D6B1E3A9D2B9B09F4A7CDDE6D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B7676E7C884D9DDBEBA93901616E0CA6 /* HSSLabelBodySize.swift */,
+				E19C67078A379FAFD91C7F46844C5399 /* HSSLabelColor.swift */,
+				A2F3A076320912A1CEE4D52F14866635 /* HSSLabelTitleSize.swift */,
+				F96F7444FCAC923983A4B44AC80E7AEE /* HSSLabelType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		FDBC2671FE887DE998949883F9E5AAD2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7A0631998C929EB7E999B3CDA7156571 /* HSSEnumStringConvertible.swift */,
+				D99E593481633A6976924DE9E6C1E56C /* HSSStringsLocalizableExtensions.swift */,
+				7307EEA59CC44BDDD99A03A5A47AD827 /* HSSUIAccessibilityManager.swift */,
+				5DB7A6E537827636338274116D0A84E8 /* UITapGestureRecognizer+didTapAttributedTextInLabel.swift */,
+			);
+			name = Utils;
+			path = "HSS-UI/Classes/Core/Utils";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3567A4DD57D9C1CE0579B3F864C447B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EE0FF3B4A4297A73E9E1DB130A3D3C /* Pods-HSS-UI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E25A25B00669CEDE3D8A156F5AB7908 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3144A34C5EDCFD466FC8E25030C2E982 /* HSS-UI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A93AED2C53689D77AE7D6F73F6B1FA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BE55FCE24C385897BC7D124B18C8B5 /* ALView+PureLayout.h in Headers */,
+				B1E181C3DAACF6F4EF13DD5C586F192B /* NSArray+PureLayout.h in Headers */,
+				96C1D29F8264618C9FC74B3087172707 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				385DD11A925D30889C9C1FC1F0298959 /* PureLayout.h in Headers */,
+				1FC1DE4B491B44237210A90EC6B36A54 /* PureLayout+Internal.h in Headers */,
+				D5393780658F64AE576851FAA887C9B6 /* PureLayout-umbrella.h in Headers */,
+				E762888425FF05087A738B14FF9CDA17 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC4EE02B8935148B7F398D50E3A54B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9208A314445D70399E6E5030FF5626 /* Pods-HSS-UI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06F5CDD6235E25837519792853B145A1 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37FB6F89D7B3C22A78A4A56E85AF0F7 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				6A93AED2C53689D77AE7D6F73F6B1FA2 /* Headers */,
+				94C0A5B94D3410BD40B63518D9508215 /* Sources */,
+				BCE9E448B4D979E5B2B1BEAF635CE8A0 /* Frameworks */,
+				6E1FCC4F2B1157817C55AC8BA12861AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		1B511EAA55FA682C5F955EAF1AF1BCB8 /* HSS-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368EFE630403E4862DA0F0CD9C9A7C38 /* Build configuration list for PBXNativeTarget "HSS-UI" */;
+			buildPhases = (
+				3E25A25B00669CEDE3D8A156F5AB7908 /* Headers */,
+				1717560EFBDFF4993DACF540DFA8134D /* Sources */,
+				F0BBF2B8B3213834857FFA773738738B /* Frameworks */,
+				B5AA38BCA7A931BD7AB7633E2717ACE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B60935D89D71282FEF2D7A68BCDD730 /* PBXTargetDependency */,
+				A569731FA710A718D2554B585C13F4B4 /* PBXTargetDependency */,
+			);
+			name = "HSS-UI";
+			productName = HSS_UI;
+			productReference = EA5E77D63FD90CF1AFF0C30D09D53578 /* HSS-UI */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EB8E7305207DD4A848F601B47EDD659 /* Pods-HSS-UI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180B0B5FFAD57764B6F71CEB72D8A522 /* Build configuration list for PBXNativeTarget "Pods-HSS-UI_Example" */;
+			buildPhases = (
+				3567A4DD57D9C1CE0579B3F864C447B1 /* Headers */,
+				14DB0CA433AC6E9523149DE9F58FAF57 /* Sources */,
+				3D88932F5B6BE3FF4709FE8DDD4CF309 /* Frameworks */,
+				E2F9748B62DB43DEC81A4E4958279C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A58F4F327A1C4A52F148FB06AACA2E93 /* PBXTargetDependency */,
+				154762547027E27F275D7500B6B5AF68 /* PBXTargetDependency */,
+			);
+			name = "Pods-HSS-UI_Example";
+			productName = Pods_HSS_UI_Example;
+			productReference = 47F37BB114B8EDA845BA99165B0DF4A4 /* Pods-HSS-UI_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		464FED751935C0827D1BC8EA8BACFFE2 /* HSS-UI-HSS-UIResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68882B13F704A65FCC9F8E50AD5A639D /* Build configuration list for PBXNativeTarget "HSS-UI-HSS-UIResources" */;
+			buildPhases = (
+				D101DD8855743598C80274EC7AA8360D /* Sources */,
+				16B70D1C9DB543D40221A1B5606E6FB2 /* Frameworks */,
+				CD93C198D1FDA284942943B0B048B804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HSS-UI-HSS-UIResources";
+			productName = "HSS-UIResources";
+			productReference = 03339E99BA7690B95F8A02ACE252D5FA /* HSS-UI-HSS-UIResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DEDFDE06E057A6731CB9A03043E5996B /* Pods-HSS-UI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A249E852EF543EFACEC8187FA3AB65 /* Build configuration list for PBXNativeTarget "Pods-HSS-UI_Tests" */;
+			buildPhases = (
+				8CC4EE02B8935148B7F398D50E3A54B2 /* Headers */,
+				1447F162A426F80AF1C820F0126E821C /* Sources */,
+				22FDBFB84946508813C8CA1747D4F724 /* Frameworks */,
+				CE0CA113A8A97535AE75B684A00468C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				831AF2FB0094592AFB7A8E1730714D97 /* PBXTargetDependency */,
+			);
+			name = "Pods-HSS-UI_Tests";
+			productName = Pods_HSS_UI_Tests;
+			productReference = 9739A57B6CF6EF4F2D7E72DB1A94D2AB /* Pods-HSS-UI_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 58B4B9778740B4EBC4C77FF9CDA2B76B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B511EAA55FA682C5F955EAF1AF1BCB8 /* HSS-UI */,
+				464FED751935C0827D1BC8EA8BACFFE2 /* HSS-UI-HSS-UIResources */,
+				3EB8E7305207DD4A848F601B47EDD659 /* Pods-HSS-UI_Example */,
+				DEDFDE06E057A6731CB9A03043E5996B /* Pods-HSS-UI_Tests */,
+				06F5CDD6235E25837519792853B145A1 /* PureLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E1FCC4F2B1157817C55AC8BA12861AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AA38BCA7A931BD7AB7633E2717ACE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999C6EF7E56A8634D10C04037B21B25E /* HSS-UI-HSS-UIResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD93C198D1FDA284942943B0B048B804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D14C12616D570C9F7385F5BD8AC34D /* HSSButtonViewDefault.xib in Resources */,
+				80EFB826C7CA9786BD69662FC68EC321 /* HSSButtonViewIconLeft.xib in Resources */,
+				DA3774213DB15205FD48C1E9CF66B0DA /* HSSButtonViewIconRight.xib in Resources */,
+				B110107765B2B0C71061841FB75F69BC /* HSSCheckboxDefaultView.xib in Resources */,
+				9362CD069FB1ABA74D67A8EA67DD12DB /* HSSTextAreaView.xib in Resources */,
+				64C8827BDDE051B0B2DFA92548B02510 /* HSSTextFieldDefaultView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0CA113A8A97535AE75B684A00468C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F9748B62DB43DEC81A4E4958279C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1447F162A426F80AF1C820F0126E821C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C14B6CA57615B12FF53D063744A6A48 /* Pods-HSS-UI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DB0CA433AC6E9523149DE9F58FAF57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91259C31EDEFB8EF13A86470E298CB8 /* Pods-HSS-UI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1717560EFBDFF4993DACF540DFA8134D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013040095F2E31327C7C99DF24564014 /* HSS-UI-dummy.m in Sources */,
+				89B121C31BAB141CA064372922E5A553 /* HSSBodyBold.swift in Sources */,
+				A786DBFE312618EB470F44D6880115C7 /* HSSBodyBolds.swift in Sources */,
+				BF9D231C336B955D8598BC3666B67ECC /* HSSBodyLink.swift in Sources */,
+				EF247029E7F7DCD2427415477EA58A89 /* HSSBodyLinks.swift in Sources */,
+				BEEFA3450D2A7101E83BB968E0C4773D /* HSSBundle.swift in Sources */,
+				E7DC9A47B594AA769EED610CB84721CC /* HSSButton.swift in Sources */,
+				E0C7377C6E042C0B87DBE1F3B96B062D /* HSSButtonAbstractView.swift in Sources */,
+				2C1F00B315C7D43CB6196D691ABF113F /* HSSButtonAccessibilityManager.swift in Sources */,
+				3E905298E2FA2D8096503EDA04FDC1F6 /* HSSButtonDefaultView.swift in Sources */,
+				FDA0552A0B6FB35543BABC7CA2FBBD72 /* HSSButtonHierarchy.swift in Sources */,
+				37596181FF31027D91E5B3C7C9EA12C0 /* HSSButtonHierarchyFactory.swift in Sources */,
+				E322664C12C0AA9733571DDAFED8BE00 /* HSSButtonHierarchyLoud.swift in Sources */,
+				B8D3CCEEB1CEB7C01498159904B2D148 /* HSSButtonHierarchyProtocol.swift in Sources */,
+				3493D348C4EEE8A0C3289F6B46FC4557 /* HSSButtonHierarchyQuiet.swift in Sources */,
+				69BFB4200AD530D1B729A6EFA2345A9D /* HSSButtonHierarchyTransparent.swift in Sources */,
+				740736C21AB29A0A845AC3DB1D3C1DCA /* HSSButtonIcon.swift in Sources */,
+				87000636CAC6D39A2A9F294435087D8A /* HSSButtonSize.swift in Sources */,
+				025AAB744AD2E1BF2CE9DA0DF41DD3ED /* HSSButtonSizeFactory.swift in Sources */,
+				02B91276083BA809E0A32A16A7F7D420 /* HSSButtonSizeLarge.swift in Sources */,
+				26EABF598D955A78089510F1D20AAE09 /* HSSButtonSizeMedium.swift in Sources */,
+				124DC32BB2F7E54D307B721F8A78CB69 /* HSSButtonSizeProtocol.swift in Sources */,
+				3FDB37263248F82E00308AC9E7691649 /* HSSButtonSizeSmall.swift in Sources */,
+				C7DE37E00C3DA3E144A13D0AF1AEC62E /* HSSButtonView.swift in Sources */,
+				AD265DA4ACAACB40E1B217D0BA9E84DD /* HSSButtonViewConfig.swift in Sources */,
+				02D2EBE8EB9764416E6E30744E8F6851 /* HSSButtonViewConfigFactory.swift in Sources */,
+				D5CD0DAE80704AA05F54D9BD9F7A41DA /* HSSButtonViewIconLeft.swift in Sources */,
+				5A6F726E9A3F0337CE3252244A6BD43B /* HSSButtonViewIconRight.swift in Sources */,
+				2745A5291CD8B586F79CFA2AD73983D2 /* HSSButtonViewWithIcon.swift in Sources */,
+				09D01AB0DDBFC91734DA5619A2F6CB9F /* HSSCheckbox.swift in Sources */,
+				11A6DAA8D2F8FD85957A0EA1CAF28A38 /* HSSCheckboxAccessibilityManager.swift in Sources */,
+				FB0DD3E8313138D97C61FE90FE6BD155 /* HSSCheckboxAlign.swift in Sources */,
+				8FC8F5E333E9D151CC7CCC3FAC9894C3 /* HSSCheckboxDefaultView.swift in Sources */,
+				77158F90B1C32EE1A1BFEE5E541501A7 /* HSSCheckboxStatus.swift in Sources */,
+				5FF16280A8840EA556495AD7DC5766AC /* HSSCheckboxStatusFactory.swift in Sources */,
+				EFA938C9FFA345F11121563888271990 /* HSSCheckboxStatusProtocol.swift in Sources */,
+				BE767F784F4EF6751FDF629381455998 /* HSSCheckboxStatusSelected.swift in Sources */,
+				9DF08B6CF6D3922283E01AFB8380532F /* HSSCheckboxStatusUndefined.swift in Sources */,
+				43D450EB2E2181311FC142E0DF879E78 /* HSSCheckboxStatusUnselected.swift in Sources */,
+				0DD214FE9B603E0CB1F5B7F6D85C3069 /* HSSCheckboxType.swift in Sources */,
+				CD74850F3417854889851F55A682AE29 /* HSSCheckboxTypeDisabled.swift in Sources */,
+				06AA903F5894FD6969117B841235095F /* HSSCheckboxTypeError.swift in Sources */,
+				446509823849EC0E2A5ADE54ED78DC01 /* HSSCheckboxTypeFactory.swift in Sources */,
+				FBE8DD6DC1F065C9C5B6BC7D2684F042 /* HSSCheckboxTypeIdle.swift in Sources */,
+				E521B8F8285EFDB560939F176581419A /* HSSCheckboxTypeProtocol.swift in Sources */,
+				FD51984A0365449F2A98662A5A63E68D /* HSSCheckboxView.swift in Sources */,
+				9443C51C3D5197F7E5566FDD0B575C08 /* HSSCheckboxViewConfig.swift in Sources */,
+				C2078C823CD2068671FA0BD5E9C5FDBB /* HSSCheckboxViewDelegate.swift in Sources */,
+				955BD789274541EB4B8F8BE338EC2B9A /* HSSColor.swift in Sources */,
+				793F3AE58923D8571678D0D16592EC21 /* HSSColorStrategyiOS10.swift in Sources */,
+				04651D8D6606F07CF6D7F3559B136B69 /* HSSEnumStringConvertible.swift in Sources */,
+				F7051101C2C10D8215A3062291C7BCD4 /* HSSFontStyle.swift in Sources */,
+				B7D0768B82782F96EF18C60C46EEB564 /* HSSIcons.swift in Sources */,
+				B116051721450981CB9D4B73E1663004 /* HSSIconsLocalStrategy.swift in Sources */,
+				A268318BE60885AA5191C8FACE53371C /* HSSIconsProvider.swift in Sources */,
+				AA901118F9B88A6781897BE4A23E264C /* HSSIconsStrategy.swift in Sources */,
+				C221942E46B40460B67F8B3EDA902FA7 /* HSSLabel.swift in Sources */,
+				0806B7584ABA5CCED74F6F59DD66BF85 /* HSSLabelAccessibilityManager.swift in Sources */,
+				C9A4E331F5D98ED3E382E7DFF15A0459 /* HSSLabelBodyConfig.swift in Sources */,
+				0FE7207A1B1894F23DBFE4E8B9EE8655 /* HSSLabelBodySize.swift in Sources */,
+				AD96DA23B4D8C5D996DB31243105FA54 /* HSSLabelColor.swift in Sources */,
+				7F6A5ECCBB4F60A887629B7EF62C12C9 /* HSSLabelInternalConfig.swift in Sources */,
+				2ED80293616F0A7E08345D8C86D56CA2 /* HSSLabelTitleConfig.swift in Sources */,
+				44C6403BA60C31B1D3C3C0A7F92B1F78 /* HSSLabelTitleSize.swift in Sources */,
+				12ABDCD5A41FECC24C67627FA7A3E2D3 /* HSSLabelType.swift in Sources */,
+				D0C9CE232273D8E6B62C86A3F1C11BBF /* HSSStringsLocalizableExtensions.swift in Sources */,
+				BD237C39E704BF9FE6D11265BDE5FB95 /* HSSStyleSheet.swift in Sources */,
+				AF3DE380C82DC1C761D924CF48FABD1E /* HSSStyleSheetDefault.swift in Sources */,
+				BE676335C99C59198C754AAB37CEC03C /* HSSStyleSheetManager.swift in Sources */,
+				7DAAECA1CCB703D84F9CF28E524EC7F5 /* HSSTextArea.swift in Sources */,
+				1F55FB132918D599AC1ED540C2996798 /* HSSTextAreaDelegate.swift in Sources */,
+				0EF3214065959D291DD76411F13F4E54 /* HSSTextAreaView.swift in Sources */,
+				6C1FFA7769FDFFCE57EE5A23E7524628 /* HSSTextField.swift in Sources */,
+				5D90FC595DC3450BD723ED1AE894D30F /* HSSTextFieldAbstractView.swift in Sources */,
+				3B820F4F2809DD5ACF011DFFA1CE7174 /* HSSTextFieldAccessibilityManager.swift in Sources */,
+				31BDF14C430F74A61551E001085BB6F5 /* HSSTextFieldActionView.swift in Sources */,
+				21F0061A95406BC0C311202C415E3914 /* HSSTextFieldBorderLayerDashed.swift in Sources */,
+				9D00117D0570AA0F965ADF336B525267 /* HSSTextFieldBorderLayerDefault.swift in Sources */,
+				8A7B1F8DEDB628E61683B2E3F77D05F6 /* HSSTextFieldCheckboxView.swift in Sources */,
+				40FE34A55AC1EA89676D3C849DE0CB9F /* HSSTextFieldClearView.swift in Sources */,
+				6897491E6D9F507CD3BF716AAC3FC2F6 /* HSSTextFieldComponentAction.swift in Sources */,
+				E8FA586B3B1600C698D288ABB78E042C /* HSSTextFieldComponentCheck.swift in Sources */,
+				8D13C1B02921FE6343CA24BC7391AD04 /* HSSTextFieldComponentCheckbox.swift in Sources */,
+				FFDDD60FF06AC65854444AC4ADE27E68 /* HSSTextFieldComponentClear.swift in Sources */,
+				48710CA6EB8C8B4F097BC5172E5F4629 /* HSSTextFieldComponentIcon.swift in Sources */,
+				01405512FC6294686FC69CAD468DF565 /* HSSTextFieldComponentLabel.swift in Sources */,
+				7431B6EC9CD1A9AE29806C5EB7A2C5D9 /* HSSTextFieldComponentProgressIndicator.swift in Sources */,
+				327D263BD2E64B81F14F4FEF7BC891ED /* HSSTextFieldComponentReloadPolicy.swift in Sources */,
+				8C8186652BD1612D86B29C26A8E87B7F /* HSSTextFieldComponentVisibility.swift in Sources */,
+				A7AF86DD6AD3162B3AAB7C8678CF3D02 /* HSSTextFieldDefaultView.swift in Sources */,
+				5269418F73CD8E16C8076A27F3AB4C65 /* HSSTextFieldDelegate.swift in Sources */,
+				F99326AB78E82C9F75A1248A15E00A30 /* HSSTextFieldEmptySideComponent.swift in Sources */,
+				23C41895FEC44FBABF85BEB281342262 /* HSSTextFieldIconView.swift in Sources */,
+				EF36CD7E268786F971BB9986ACB86869 /* HSSTextFieldInputTrait.swift in Sources */,
+				03DF9B60EE7585FD5D4EA59A4A006B23 /* HSSTextFieldLabelView.swift in Sources */,
+				7C11EEDDBDFC13E71AA3BB7C1FC8D82A /* HSSTextFieldLeftComponent.swift in Sources */,
+				19890C957CBAC507BD917658F606F8E3 /* HSSTextFieldProgressIndicatorView.swift in Sources */,
+				9CD083F0FFF4B5D2828F0241AAF6BA2E /* HSSTextFieldRightComponent.swift in Sources */,
+				40411C830D161DD47F51FA32F82D34E0 /* HSSTextFieldSideComponentFactory.swift in Sources */,
+				BC9FB1DEAF9640CAB11F4F25B7B7CE7F /* HSSTextInputState.swift in Sources */,
+				934B48AD633FA21E62F8595381D6B775 /* HSSTextFieldStateDisabled.swift in Sources */,
+				170001716C0FDD2BF44839E6ADFA909A /* HSSTextFieldStateError.swift in Sources */,
+				2934FED91662EB8E7804E95E6D10A2F4 /* HSSTextFieldStateFactory.swift in Sources */,
+				020732BC14F83499CFFE2886A3485E54 /* HSSTextFieldStateIdle.swift in Sources */,
+				9249536A0DEE9B28817FE6BF3C17C04E /* HSSTextFieldStateProtocol.swift in Sources */,
+				8842B5E760C1D47651920E19B39FE886 /* HSSTextFieldStateReadonly.swift in Sources */,
+				CC45AB2DD14FDE5E0AFBC9CC9015A0F6 /* HSSTextFieldStateWarning.swift in Sources */,
+				64B9AA562CCAC9C81DD7FD3186C3B0E5 /* HSSTextFieldView.swift in Sources */,
+				8E7FC42C562B3520BD9EE7867AC830C9 /* HSSTextFieldViewConfig.swift in Sources */,
+				06C3F79B44E6D103C35D984516B92DC0 /* HSSTextFieldViewConfigFactory.swift in Sources */,
+				96ABA1C97B779D1FC887CBFA3652F698 /* HSSTextFieldViewDelegate.swift in Sources */,
+				F4ACFED7C47993953163A74B1A60D075 /* HSSTextInputPadding.swift in Sources */,
+				732C1856020659EBCCEAA1760C2FFAE6 /* HSSTextInputPaddingFactory.swift in Sources */,
+				6F31E82ADAAD54987278BDF0866F79AD /* HSSTextInputState+Info.swift in Sources */,
+				43829ABA84A09722977E424C3C8D4820 /* HSSTextInputTraitsFactory.swift in Sources */,
+				99B7B8D0886F3181B659F2B7EE71FCB1 /* HSSUIAccessibilityManager.swift in Sources */,
+				5E7F65D85C781E2CBD9975103804AA65 /* HSSUITextView.swift in Sources */,
+				0CC8C9E7E10A6309CB68C4D2CF8FB5C9 /* TextField.swift in Sources */,
+				1CA68976FAA875DA726C6439D1AED509 /* TextFieldPaddingView.swift in Sources */,
+				E5B7B89DB0AE23126D5306F127F626D3 /* UIApplication+Additions.swift in Sources */,
+				9C74F16CF140FEF233394A39B898545B /* UILabel+Additions.swift in Sources */,
+				36CC66908C389B3EC9B9587143D2FE41 /* UITapGestureRecognizer+didTapAttributedTextInLabel.swift in Sources */,
+				D4E04BFAEF852B67A5FA50222BBB4BD5 /* UIView+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C0A5B94D3410BD40B63518D9508215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163E177F4B72A66E0FF401FD382B3BD9 /* ALView+PureLayout.m in Sources */,
+				A9674BF1F4BD829780A45D3496ABEA64 /* NSArray+PureLayout.m in Sources */,
+				5E35B22793C232327E367E34E72B9D5A /* NSLayoutConstraint+PureLayout.m in Sources */,
+				F6CDC81182E61BE6CFC0DB3250A8929A /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101DD8855743598C80274EC7AA8360D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		154762547027E27F275D7500B6B5AF68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
+			targetProxy = C88C435C13074B83FE7E8734B57AF542 /* PBXContainerItemProxy */;
+		};
+		4B60935D89D71282FEF2D7A68BCDD730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HSS-UI-HSS-UIResources";
+			target = 464FED751935C0827D1BC8EA8BACFFE2 /* HSS-UI-HSS-UIResources */;
+			targetProxy = DC9E37316DFB07F6756E6ABA5CFCE2D9 /* PBXContainerItemProxy */;
+		};
+		831AF2FB0094592AFB7A8E1730714D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HSS-UI_Example";
+			target = 3EB8E7305207DD4A848F601B47EDD659 /* Pods-HSS-UI_Example */;
+			targetProxy = BDEB6D6E0B56470110CF3DEBBF19DE2C /* PBXContainerItemProxy */;
+		};
+		A569731FA710A718D2554B585C13F4B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
+			targetProxy = 658887CA575D8D044C32C1E409A99889 /* PBXContainerItemProxy */;
+		};
+		A58F4F327A1C4A52F148FB06AACA2E93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HSS-UI";
+			target = 1B511EAA55FA682C5F955EAF1AF1BCB8 /* HSS-UI */;
+			targetProxy = D8042E7A7E089561547ED742E7C7FADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		083478437247BA7C6EFD7C5CAB72BBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C44BC945171FD81F015DC3F48478B5 /* PureLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D3F389ADC4DA0EFC604AF60FFFED26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638F70C6AD1616A06C91CDC319912553 /* Pods-HSS-UI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS-UI_Tests/Pods-HSS-UI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS-UI_Tests/Pods-HSS-UI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DEF0DCF27E1F0C9E16F170F8B2A17E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05798A312F0AD54991DDD2D3BC67053 /* HSS-UI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HSS-UI";
+				IBSC_MODULE = HSS_UI;
+				INFOPLIST_FILE = "Target Support Files/HSS-UI/ResourceBundle-HSS-UIResources-HSS-UI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "HSS-UIResources";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		551E2D592F622E52F9062C7158771D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73437DB696F5078C94971A276425A720 /* Pods-HSS-UI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS-UI_Example/Pods-HSS-UI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS-UI_Example/Pods-HSS-UI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6415DE0EAFE6670A82DDF618ECA9E5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E99873389A383BB693A8331C0E4EAD /* HSS-UI.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HSS-UI/HSS-UI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSS-UI/HSS-UI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSS-UI/HSS-UI.modulemap";
+				PRODUCT_MODULE_NAME = HSS_UI;
+				PRODUCT_NAME = HSS_UI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		868769B61A9090F57A95589F216DD302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E99873389A383BB693A8331C0E4EAD /* HSS-UI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HSS-UI";
+				IBSC_MODULE = HSS_UI;
+				INFOPLIST_FILE = "Target Support Files/HSS-UI/ResourceBundle-HSS-UIResources-HSS-UI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "HSS-UIResources";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A176CAC7D94D54D6635A3E4C96DE3E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D9FD75646605AE4BB593A155E008BD /* PureLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1BB388C73DE18601BE96673592CDD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05798A312F0AD54991DDD2D3BC67053 /* HSS-UI.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HSS-UI/HSS-UI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HSS-UI/HSS-UI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HSS-UI/HSS-UI.modulemap";
+				PRODUCT_MODULE_NAME = HSS_UI;
+				PRODUCT_NAME = HSS_UI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D87534890C1360AF6FB4214A353054E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EC6E293BEE3A6FA7E5E407C54FD21C /* Pods-HSS-UI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS-UI_Tests/Pods-HSS-UI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS-UI_Tests/Pods-HSS-UI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9325D56EFCA701FBD8D45ADEEBD5577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1523B0CA15425D2201EDABD3118900A /* Pods-HSS-UI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HSS-UI_Example/Pods-HSS-UI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HSS-UI_Example/Pods-HSS-UI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A249E852EF543EFACEC8187FA3AB65 /* Build configuration list for PBXNativeTarget "Pods-HSS-UI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3F389ADC4DA0EFC604AF60FFFED26F /* Debug */,
+				D87534890C1360AF6FB4214A353054E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180B0B5FFAD57764B6F71CEB72D8A522 /* Build configuration list for PBXNativeTarget "Pods-HSS-UI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551E2D592F622E52F9062C7158771D99 /* Debug */,
+				D9325D56EFCA701FBD8D45ADEEBD5577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368EFE630403E4862DA0F0CD9C9A7C38 /* Build configuration list for PBXNativeTarget "HSS-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6415DE0EAFE6670A82DDF618ECA9E5EE /* Debug */,
+				A1BB388C73DE18601BE96673592CDD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68882B13F704A65FCC9F8E50AD5A639D /* Build configuration list for PBXNativeTarget "HSS-UI-HSS-UIResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868769B61A9090F57A95589F216DD302 /* Debug */,
+				2DEF0DCF27E1F0C9E16F170F8B2A17E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37FB6F89D7B3C22A78A4A56E85AF0F7 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A176CAC7D94D54D6635A3E4C96DE3E16 /* Debug */,
+				083478437247BA7C6EFD7C5CAB72BBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

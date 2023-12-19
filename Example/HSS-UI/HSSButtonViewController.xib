@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HSSButtonViewController" customModule="HSS_UI_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="defaultButton" destination="7ln-PW-xMl" id="ZbN-Dw-dFe"/>
+                <outlet property="disableButton" destination="hTG-Jw-2aH" id="1Ad-5u-URP"/>
+                <outlet property="largeLoud" destination="4iw-wd-O4o" id="60M-2J-CRi"/>
+                <outlet property="largeQuiet" destination="88G-TV-riR" id="DiY-gA-tGF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r10-fi-PcQ">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ln-PW-xMl" customClass="HSSButton" customModule="HSS_UI">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="48"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="XFk-FD-S9x"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hTG-Jw-2aH" customClass="HSSButton" customModule="HSS_UI">
+                            <rect key="frame" x="0.0" y="63" width="393" height="48"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="4o3-aC-q6H"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4iw-wd-O4o" customClass="HSSButton" customModule="HSS_UI">
+                            <rect key="frame" x="0.0" y="126" width="393" height="48"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="E4v-EL-v1S"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="ibHierarchy" value="LOUD"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="text" value="Large Loud"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="ibSize" value="LARGE"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88G-TV-riR" customClass="HSSButton" customModule="HSS_UI">
+                            <rect key="frame" x="0.0" y="189" width="393" height="48"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="sMD-Vq-nNu"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="ibHierarchy" value="QUIET"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="text" value="Small quiet"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="ibSize" value="small"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JFT-6f-Src">
+                            <rect key="frame" x="0.0" y="252" width="393" height="507"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="4iw-wd-O4o" firstAttribute="leading" secondItem="r10-fi-PcQ" secondAttribute="leading" id="CXf-sW-OyO"/>
+                        <constraint firstItem="88G-TV-riR" firstAttribute="leading" secondItem="r10-fi-PcQ" secondAttribute="leading" id="JW1-fn-b7L"/>
+                        <constraint firstAttribute="trailing" secondItem="88G-TV-riR" secondAttribute="trailing" id="LTa-By-x57"/>
+                        <constraint firstItem="hTG-Jw-2aH" firstAttribute="leading" secondItem="r10-fi-PcQ" secondAttribute="leading" id="UVf-GD-iOv"/>
+                        <constraint firstAttribute="trailing" secondItem="hTG-Jw-2aH" secondAttribute="trailing" id="VYe-7H-6Qd"/>
+                        <constraint firstItem="4iw-wd-O4o" firstAttribute="top" secondItem="hTG-Jw-2aH" secondAttribute="bottom" constant="15" id="Y8s-MK-ale"/>
+                        <constraint firstItem="7ln-PW-xMl" firstAttribute="leading" secondItem="r10-fi-PcQ" secondAttribute="leading" id="Yje-7f-m8F"/>
+                        <constraint firstItem="88G-TV-riR" firstAttribute="top" secondItem="4iw-wd-O4o" secondAttribute="bottom" constant="15" id="h4u-dF-4yt"/>
+                        <constraint firstAttribute="trailing" secondItem="4iw-wd-O4o" secondAttribute="trailing" id="hXB-8g-hZB"/>
+                        <constraint firstAttribute="trailing" secondItem="7ln-PW-xMl" secondAttribute="trailing" id="m2H-AZ-cu5"/>
+                        <constraint firstItem="7ln-PW-xMl" firstAttribute="top" secondItem="r10-fi-PcQ" secondAttribute="top" id="msR-xH-Una"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="r10-fi-PcQ" secondAttribute="trailing" id="5L0-OR-vj2"/>
+                <constraint firstItem="r10-fi-PcQ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="buP-GH-VWF"/>
+                <constraint firstItem="r10-fi-PcQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="h5w-SO-HAn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="r10-fi-PcQ" secondAttribute="bottom" id="qta-9O-ZIT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="82" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

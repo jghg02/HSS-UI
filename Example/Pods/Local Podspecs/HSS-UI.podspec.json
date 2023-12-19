@@ -1,0 +1,32 @@
+{
+  "name": "HSS-UI",
+  "version": "0.1.0",
+  "summary": "HSS-UI this is a UI lib. It provide the definitions, components and tolls to build consistent experience.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Josue/HSS-UI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Josue": "jghg.02@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Josue/HSS-UI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "PureLayout": [
+
+    ]
+  },
+  "source_files": "HSS-UI/Classes/Core/**/*.{swift}",
+  "resource_bundles": {
+    "HSS-UIResources": [
+      "HSS-UI/Classes/Resources/**/*.{xib}"
+    ]
+  }
+}
